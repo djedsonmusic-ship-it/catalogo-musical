@@ -1,0 +1,60 @@
+{
+  "categoriaId": "academia",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Enriquecimentos são preservados entre execuções — não editar à mão.",
+  "estilos": [
+    {
+      "id": "est_academia_001",
+      "categoriaId": "academia",
+      "subcategoriaId": "academia__musicas-para-treinar",
+      "nome": "Músicas para treinar",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1,
+      "previewUrls": [
+        "previews/Músicas para treinar/musica01.mp3",
+        "previews/Músicas para treinar/musica02.mp3",
+        "previews/Músicas para treinar/musica03.mp3"
+      ]
+    },
+    {
+      "id": "est_academia_002",
+      "categoriaId": "academia",
+      "subcategoriaId": "academia__crossfit",
+      "nome": "Crossfit",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 2,
+      "previewUrls": [
+        "previews/Crossfit/musica01.mp3",
+        "previews/Crossfit/musica02.mp3",
+        "previews/Crossfit/musica03.mp3"
+      ]
+    },
+    {
+      "id": "est_academia_003",
+      "categoriaId": "academia",
+      "subcategoriaId": "academia__yoga-meditacao",
+      "nome": "Yoga & Meditação",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 3,
+      "previewUrls": [
+        "previews/Yoga & Meditação/musica01.mp3",
+        "previews/Yoga & Meditação/musica02.mp3",
+        "previews/Yoga & Meditação/musica03.mp3"
+      ]
+    }
+  ]
+}

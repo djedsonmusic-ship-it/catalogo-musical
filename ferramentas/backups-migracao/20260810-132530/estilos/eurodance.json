@@ -1,0 +1,19 @@
+{
+  "categoriaId": "eurodance",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Não editar à mão — reexecute o script após atualizar o CSV.",
+  "estilos": [
+    {
+      "id": "est_eurodance_001",
+      "categoriaId": "eurodance",
+      "subcategoriaId": "eurodance__eurodance-anos-90",
+      "nome": "Eurodance anos 90",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1
+    }
+  ]
+}

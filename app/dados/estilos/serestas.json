@@ -1,0 +1,37 @@
+{
+  "categoriaId": "serestas",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Enriquecimentos são preservados entre execuções — não editar à mão.",
+  "estilos": [
+    {
+      "id": "est_serestas_001",
+      "categoriaId": "serestas",
+      "subcategoriaId": "serestas__serestas-nacionais",
+      "nome": "Serestas Nacionais",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1,
+      "previewUrls": [
+        "previews/Serestas/Serestas Nacionais/musica01.mp3",
+        "previews/Serestas/Serestas Nacionais/musica02.mp3",
+        "previews/Serestas/Serestas Nacionais/musica03.mp3"
+      ]
+    },
+    {
+      "id": "est_serestas_002",
+      "categoriaId": "serestas",
+      "subcategoriaId": "serestas__serestas-internacionais",
+      "nome": "Serestas Internacionais",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 2
+    }
+  ]
+}

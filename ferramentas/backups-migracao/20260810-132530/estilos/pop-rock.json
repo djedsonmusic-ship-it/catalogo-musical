@@ -1,0 +1,97 @@
+{
+  "categoriaId": "pop-rock",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Não editar à mão — reexecute o script após atualizar o CSV.",
+  "estilos": [
+    {
+      "id": "est_pop-rock_001",
+      "categoriaId": "pop-rock",
+      "subcategoriaId": "pop-rock__classic-rock-ballads-lentas",
+      "nome": "Classic Rock Ballads(Lentas)",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1
+    },
+    {
+      "id": "est_pop-rock_002",
+      "categoriaId": "pop-rock",
+      "subcategoriaId": "pop-rock__rock-nacional-80s",
+      "nome": "Rock Nacional 80s",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 2
+    },
+    {
+      "id": "est_pop-rock_003",
+      "categoriaId": "pop-rock",
+      "subcategoriaId": "pop-rock__hard-rock",
+      "nome": "Hard Rock",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 3
+    },
+    {
+      "id": "est_pop-rock_004",
+      "categoriaId": "pop-rock",
+      "subcategoriaId": "pop-rock__rock-n-roll-classico-50s-60s",
+      "nome": "Rock 'n' Roll Clássico (50s/60s)",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 4
+    },
+    {
+      "id": "est_pop-rock_005",
+      "categoriaId": "pop-rock",
+      "subcategoriaId": "pop-rock__heavy-metal",
+      "nome": "Heavy Metal",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 5
+    },
+    {
+      "id": "est_pop-rock_006",
+      "categoriaId": "pop-rock",
+      "subcategoriaId": "pop-rock__progressivo",
+      "nome": "Progressivo",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 6
+    },
+    {
+      "id": "est_pop-rock_007",
+      "categoriaId": "pop-rock",
+      "subcategoriaId": "pop-rock__punk-rock",
+      "nome": "Punk Rock",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 7
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "categoriaId": "infantil",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Não editar à mão — reexecute o script após atualizar o CSV.",
+  "estilos": [
+    {
+      "id": "est_infantil_001",
+      "categoriaId": "infantil",
+      "subcategoriaId": "infantil__infantil-geral",
+      "nome": "Infantil (Geral)",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1
+    }
+  ]
+}

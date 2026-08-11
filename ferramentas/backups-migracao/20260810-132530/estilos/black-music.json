@@ -1,0 +1,32 @@
+{
+  "categoriaId": "black-music",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Não editar à mão — reexecute o script após atualizar o CSV.",
+  "estilos": [
+    {
+      "id": "est_black-music_001",
+      "categoriaId": "black-music",
+      "subcategoriaId": "black-music__black-98-2000",
+      "nome": "Black 98 - 2000",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1
+    },
+    {
+      "id": "est_black-music_002",
+      "categoriaId": "black-music",
+      "subcategoriaId": "black-music__samba-rock-nacional",
+      "nome": "Samba Rock Nacional",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 2
+    }
+  ]
+}

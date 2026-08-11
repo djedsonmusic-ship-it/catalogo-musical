@@ -1,0 +1,19 @@
+{
+  "categoriaId": "samba",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Não editar à mão — reexecute o script após atualizar o CSV.",
+  "estilos": [
+    {
+      "id": "est_samba_001",
+      "categoriaId": "samba",
+      "subcategoriaId": "samba__sambas-raiz",
+      "nome": "Sambas Raiz",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1
+    }
+  ]
+}

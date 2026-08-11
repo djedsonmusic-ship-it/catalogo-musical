@@ -1,0 +1,24 @@
+{
+  "categoriaId": "samba",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Enriquecimentos são preservados entre execuções — não editar à mão.",
+  "estilos": [
+    {
+      "id": "est_samba_001",
+      "categoriaId": "samba",
+      "subcategoriaId": "samba__sambas-raiz",
+      "nome": "Sambas Raiz",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1,
+      "previewUrls": [
+        "previews/Samba/Sambas Raiz/musica01.mp3",
+        "previews/Samba/Sambas Raiz/musica02.mp3",
+        "previews/Samba/Sambas Raiz/musica03.mp3"
+      ]
+    }
+  ]
+}

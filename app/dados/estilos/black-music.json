@@ -1,0 +1,24 @@
+{
+  "categoriaId": "black-music",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Enriquecimentos são preservados entre execuções — não editar à mão.",
+  "estilos": [
+    {
+      "id": "est_black-music_001",
+      "categoriaId": "black-music",
+      "subcategoriaId": "black-music__black-98-2000",
+      "nome": "Black 98 - 2000",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1,
+      "previewUrls": [
+        "previews/Black Music/Black  98 - 2000/musica01.mp3",
+        "previews/Black Music/Black  98 - 2000/musica02.mp3",
+        "previews/Black Music/Black  98 - 2000/musica03.mp3"
+      ]
+    }
+  ]
+}

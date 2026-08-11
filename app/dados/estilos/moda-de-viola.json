@@ -1,0 +1,24 @@
+{
+  "categoriaId": "moda-de-viola",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Enriquecimentos são preservados entre execuções — não editar à mão.",
+  "estilos": [
+    {
+      "id": "est_moda-de-viola_001",
+      "categoriaId": "moda-de-viola",
+      "subcategoriaId": "moda-de-viola__moda-de-viola-raiz",
+      "nome": "Moda de viola Raiz",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1,
+      "previewUrls": [
+        "previews/Moda de Viola/Moda de viola Raiz/musica01.mp3",
+        "previews/Moda de Viola/Moda de viola Raiz/musica02.mp3",
+        "previews/Moda de Viola/Moda de viola Raiz/musica03.mp3"
+      ]
+    }
+  ]
+}

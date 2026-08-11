@@ -1,0 +1,117 @@
+{
+  "categoriaId": "reggae",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Enriquecimentos são preservados entre execuções — não editar à mão.",
+  "estilos": [
+    {
+      "id": "est_reggae_001",
+      "categoriaId": "reggae",
+      "subcategoriaId": "reggae__roots-vinil-disco-bolachao",
+      "nome": "Roots Vinil (Disco Bolachão)",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1,
+      "previewUrls": [
+        "previews/Reggae/Roots Vinil (Disco Bolachão)/musica01.mp3",
+        "previews/Reggae/Roots Vinil (Disco Bolachão)/musica02.mp3",
+        "previews/Reggae/Roots Vinil (Disco Bolachão)/musica03.mp3"
+      ]
+    },
+    {
+      "id": "est_reggae_002",
+      "categoriaId": "reggae",
+      "subcategoriaId": "reggae__eletronico-maranhao",
+      "nome": "Eletrônico (Maranhão)",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 2,
+      "previewUrls": [
+        "previews/Reggae/Eletrônico (Maranhão)/musica01.mp3",
+        "previews/Reggae/Eletrônico (Maranhão)/musica02.mp3",
+        "previews/Reggae/Eletrônico (Maranhão)/musica03.mp3"
+      ]
+    },
+    {
+      "id": "est_reggae_003",
+      "categoriaId": "reggae",
+      "subcategoriaId": "reggae__eletronico-caminhoneiro",
+      "nome": "Eletrônico (Caminhoneiro)",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 3,
+      "previewUrls": [
+        "previews/Reggae/Eletrônico (Caminhoneiro)/musica01.mp3",
+        "previews/Reggae/Eletrônico (Caminhoneiro)/musica02.mp3",
+        "previews/Reggae/Eletrônico (Caminhoneiro)/musica03.mp3"
+      ]
+    },
+    {
+      "id": "est_reggae_004",
+      "categoriaId": "reggae",
+      "subcategoriaId": "reggae__nacional",
+      "nome": "Nacional",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 4,
+      "previewUrls": [
+        "previews/Reggae/Nacional/musica01.mp3",
+        "previews/Reggae/Nacional/musica02.mp3",
+        "previews/Reggae/Nacional/musica03.mp3"
+      ]
+    },
+    {
+      "id": "est_reggae_005",
+      "categoriaId": "reggae",
+      "subcategoriaId": "reggae__reggaeton",
+      "nome": "Reggaeton",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 5
+    },
+    {
+      "id": "est_reggae_006",
+      "categoriaId": "reggae",
+      "subcategoriaId": "reggae__dub-instrumental",
+      "nome": "Dub (Instrumental)",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 6
+    },
+    {
+      "id": "est_reggae_007",
+      "categoriaId": "reggae",
+      "subcategoriaId": "reggae__dancehall",
+      "nome": "Dancehall",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 7
+    }
+  ]
+}

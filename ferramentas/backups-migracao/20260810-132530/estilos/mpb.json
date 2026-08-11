@@ -1,0 +1,45 @@
+{
+  "categoriaId": "mpb",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Não editar à mão — reexecute o script após atualizar o CSV.",
+  "estilos": [
+    {
+      "id": "est_mpb_001",
+      "categoriaId": "mpb",
+      "subcategoriaId": "mpb__melhores-da-mpb",
+      "nome": "Melhores da MPB",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1
+    },
+    {
+      "id": "est_mpb_002",
+      "categoriaId": "mpb",
+      "subcategoriaId": "mpb__essenciais-da-musica-brasileira",
+      "nome": "Essenciais da Música Brasileira",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 2
+    },
+    {
+      "id": "est_mpb_003",
+      "categoriaId": "mpb",
+      "subcategoriaId": "mpb__barzinho",
+      "nome": "Barzinho",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 3
+    }
+  ]
+}

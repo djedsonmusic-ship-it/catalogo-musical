@@ -1,0 +1,45 @@
+{
+  "categoriaId": "pagode",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Não editar à mão — reexecute o script após atualizar o CSV.",
+  "estilos": [
+    {
+      "id": "est_pagode_001",
+      "categoriaId": "pagode",
+      "subcategoriaId": "pagode__atualizadas",
+      "nome": "Atualizadas",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1
+    },
+    {
+      "id": "est_pagode_002",
+      "categoriaId": "pagode",
+      "subcategoriaId": "pagode__pagodes-antigos-geral",
+      "nome": "Pagodes antigos(Geral)",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 2
+    },
+    {
+      "id": "est_pagode_003",
+      "categoriaId": "pagode",
+      "subcategoriaId": "pagode__pagode-funk",
+      "nome": "Pagode Funk",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 3
+    }
+  ]
+}

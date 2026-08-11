@@ -1,0 +1,55 @@
+{
+  "categoriaId": "pagode",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Enriquecimentos são preservados entre execuções — não editar à mão.",
+  "estilos": [
+    {
+      "id": "est_pagode_001",
+      "categoriaId": "pagode",
+      "subcategoriaId": "pagode__pagode-atual-geral",
+      "nome": "Pagode atual(Geral)",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1,
+      "previewUrls": [
+        "previews/Pagode/Pagode atual(Geral)/musica01.mp3",
+        "previews/Pagode/Pagode atual(Geral)/musica02.mp3",
+        "previews/Pagode/Pagode atual(Geral)/musica03.mp3"
+      ]
+    },
+    {
+      "id": "est_pagode_002",
+      "categoriaId": "pagode",
+      "subcategoriaId": "pagode__pagode-antigo-geral",
+      "nome": "Pagode antigo(Geral)",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 2,
+      "previewUrls": [
+        "previews/Pagode/Pagode antigo(Geral)/musica01.mp3",
+        "previews/Pagode/Pagode antigo(Geral)/musica02.mp3",
+        "previews/Pagode/Pagode antigo(Geral)/musica03.mp3"
+      ]
+    },
+    {
+      "id": "est_pagode_003",
+      "categoriaId": "pagode",
+      "subcategoriaId": "pagode__pagode-funk",
+      "nome": "Pagode Funk",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 3
+    }
+  ]
+}

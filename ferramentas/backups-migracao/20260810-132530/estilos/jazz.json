@@ -1,0 +1,97 @@
+{
+  "categoriaId": "jazz",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Não editar à mão — reexecute o script após atualizar o CSV.",
+  "estilos": [
+    {
+      "id": "est_jazz_001",
+      "categoriaId": "jazz",
+      "subcategoriaId": "jazz__jazz-brasil",
+      "nome": "Jazz Brasil",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1
+    },
+    {
+      "id": "est_jazz_002",
+      "categoriaId": "jazz",
+      "subcategoriaId": "jazz__jazz-anos-50",
+      "nome": "Jazz anos 50",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 2
+    },
+    {
+      "id": "est_jazz_003",
+      "categoriaId": "jazz",
+      "subcategoriaId": "jazz__jazz-anos-60",
+      "nome": "Jazz anos 60",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 3
+    },
+    {
+      "id": "est_jazz_004",
+      "categoriaId": "jazz",
+      "subcategoriaId": "jazz__jazz-anos-70",
+      "nome": "Jazz anos 70",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 4
+    },
+    {
+      "id": "est_jazz_005",
+      "categoriaId": "jazz",
+      "subcategoriaId": "jazz__jazz-anos-80",
+      "nome": "Jazz anos 80",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 5
+    },
+    {
+      "id": "est_jazz_006",
+      "categoriaId": "jazz",
+      "subcategoriaId": "jazz__jazz-anos-90",
+      "nome": "Jazz anos 90",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 6
+    },
+    {
+      "id": "est_jazz_007",
+      "categoriaId": "jazz",
+      "subcategoriaId": "jazz__jazz-anos-2000",
+      "nome": "Jazz anos 2000",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 7
+    }
+  ]
+}

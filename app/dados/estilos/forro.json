@@ -1,0 +1,127 @@
+{
+  "categoriaId": "forro",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Enriquecimentos são preservados entre execuções — não editar à mão.",
+  "estilos": [
+    {
+      "id": "est_forro_001",
+      "categoriaId": "forro",
+      "subcategoriaId": "forro__atual",
+      "nome": "Atual",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1,
+      "previewUrls": [
+        "previews/Forró/Atual/musica01.mp3",
+        "previews/Forró/Atual/musica02.mp3",
+        "previews/Forró/Atual/musica03.mp3"
+      ]
+    },
+    {
+      "id": "est_forro_002",
+      "categoriaId": "forro",
+      "subcategoriaId": "forro__antigo",
+      "nome": "Antigo",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 2,
+      "previewUrls": [
+        "previews/Forró/Antigo/musica01.mp3",
+        "previews/Forró/Antigo/musica02.mp3",
+        "previews/Forró/Antigo/musica03.mp3"
+      ]
+    },
+    {
+      "id": "est_forro_003",
+      "categoriaId": "forro",
+      "subcategoriaId": "forro__festa-junina",
+      "nome": "Festa Junina",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 3,
+      "previewUrls": [
+        "previews/Forró/Festa Junina/musica01.mp3",
+        "previews/Forró/Festa Junina/musica02.mp3",
+        "previews/Forró/Festa Junina/musica03.mp3"
+      ]
+    },
+    {
+      "id": "est_forro_004",
+      "categoriaId": "forro",
+      "subcategoriaId": "forro__vaquejada",
+      "nome": "Vaquejada",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 4
+    },
+    {
+      "id": "est_forro_005",
+      "categoriaId": "forro",
+      "subcategoriaId": "forro__forro-pe-de-serra",
+      "nome": "Forró Pé de Serra",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 5,
+      "previewUrls": [
+        "previews/Forró/Forró Pé de Serra/musica01.mp3",
+        "previews/Forró/Forró Pé de Serra/musica02.mp3",
+        "previews/Forró/Forró Pé de Serra/musica03.mp3"
+      ]
+    },
+    {
+      "id": "est_forro_006",
+      "categoriaId": "forro",
+      "subcategoriaId": "forro__forro-romantico",
+      "nome": "Forró Romântico",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 6,
+      "previewUrls": [
+        "previews/Forró/Forró Romântico/musica01.mp3",
+        "previews/Forró/Forró Romântico/musica02.mp3",
+        "previews/Forró/Forró Romântico/musica03.mp3"
+      ]
+    },
+    {
+      "id": "est_forro_007",
+      "categoriaId": "forro",
+      "subcategoriaId": "forro__forro-universitario",
+      "nome": "Forró Universitário",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 7,
+      "previewUrls": [
+        "previews/Forró/Forró Universitário/musica01.mp3",
+        "previews/Forró/Forró Universitário/musica02.mp3",
+        "previews/Forró/Forró Universitário/musica03.mp3"
+      ]
+    }
+  ]
+}

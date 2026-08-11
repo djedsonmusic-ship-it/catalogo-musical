@@ -1,0 +1,71 @@
+{
+  "categoriaId": "carnaval",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Não editar à mão — reexecute o script após atualizar o CSV.",
+  "estilos": [
+    {
+      "id": "est_carnaval_001",
+      "categoriaId": "carnaval",
+      "subcategoriaId": "carnaval__marchinhas",
+      "nome": "Marchinhas",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1
+    },
+    {
+      "id": "est_carnaval_002",
+      "categoriaId": "carnaval",
+      "subcategoriaId": "carnaval__sambas-de-enredo-rj",
+      "nome": "Sambas de Enredo RJ",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 2
+    },
+    {
+      "id": "est_carnaval_003",
+      "categoriaId": "carnaval",
+      "subcategoriaId": "carnaval__axe-geral-bahia",
+      "nome": "Axé Geral (Bahia)",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 3
+    },
+    {
+      "id": "est_carnaval_004",
+      "categoriaId": "carnaval",
+      "subcategoriaId": "carnaval__frevo-recife",
+      "nome": "Frevo (Recife)",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 4
+    },
+    {
+      "id": "est_carnaval_005",
+      "categoriaId": "carnaval",
+      "subcategoriaId": "carnaval__retiro-acampa-jovem-gospel",
+      "nome": "Retiro Acampa Jovem (Gospel)",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 5
+    }
+  ]
+}

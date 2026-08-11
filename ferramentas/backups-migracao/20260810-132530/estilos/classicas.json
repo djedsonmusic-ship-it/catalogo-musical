@@ -1,0 +1,32 @@
+{
+  "categoriaId": "classicas",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Não editar à mão — reexecute o script após atualizar o CSV.",
+  "estilos": [
+    {
+      "id": "est_classicas_001",
+      "categoriaId": "classicas",
+      "subcategoriaId": "classicas__musicas-classicas",
+      "nome": "Músicas Clássicas",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1
+    },
+    {
+      "id": "est_classicas_002",
+      "categoriaId": "classicas",
+      "subcategoriaId": "classicas__opera",
+      "nome": "Ópera",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 2
+    }
+  ]
+}

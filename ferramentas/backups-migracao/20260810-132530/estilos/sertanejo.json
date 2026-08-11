@@ -1,0 +1,45 @@
+{
+  "categoriaId": "sertanejo",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Não editar à mão — reexecute o script após atualizar o CSV.",
+  "estilos": [
+    {
+      "id": "est_sertanejo_001",
+      "categoriaId": "sertanejo",
+      "subcategoriaId": "sertanejo__raiz",
+      "nome": "Raiz",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1
+    },
+    {
+      "id": "est_sertanejo_002",
+      "categoriaId": "sertanejo",
+      "subcategoriaId": "sertanejo__universitario",
+      "nome": "Universitário",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 2
+    },
+    {
+      "id": "est_sertanejo_003",
+      "categoriaId": "sertanejo",
+      "subcategoriaId": "sertanejo__voz-e-violao",
+      "nome": "Voz e Violão",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 3
+    }
+  ]
+}

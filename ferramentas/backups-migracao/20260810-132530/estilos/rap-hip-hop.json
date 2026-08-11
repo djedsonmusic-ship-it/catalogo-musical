@@ -1,0 +1,32 @@
+{
+  "categoriaId": "rap-hip-hop",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Não editar à mão — reexecute o script após atualizar o CSV.",
+  "estilos": [
+    {
+      "id": "est_rap-hip-hop_001",
+      "categoriaId": "rap-hip-hop",
+      "subcategoriaId": "rap-hip-hop__anos-80-90",
+      "nome": "Anos 80 -90",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1
+    },
+    {
+      "id": "est_rap-hip-hop_002",
+      "categoriaId": "rap-hip-hop",
+      "subcategoriaId": "rap-hip-hop__atuais",
+      "nome": "Atuais",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 2
+    }
+  ]
+}

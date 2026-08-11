@@ -1,0 +1,23 @@
+{
+  "categoriaId": "jovem-guarda",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Enriquecimentos são preservados entre execuções — não editar à mão.",
+  "estilos": [
+    {
+      "id": "est_jovem-guarda_001",
+      "categoriaId": "jovem-guarda",
+      "subcategoriaId": "jovem-guarda__jovem-guarda-anos-60-70",
+      "nome": "Jovem guarda anos 60 - 70",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1,
+      "previewUrls": [
+        "previews/Jovem Guarda/Jovem guarda anos 60 - 70/musica01.mp3",
+        "previews/Jovem Guarda/Jovem guarda anos 60 - 70/musica03.mp3"
+      ]
+    }
+  ]
+}

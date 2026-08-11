@@ -1,0 +1,81 @@
+{
+  "categoriaId": "flash-back",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Enriquecimentos são preservados entre execuções — não editar à mão.",
+  "estilos": [
+    {
+      "id": "est_flash-back_001",
+      "categoriaId": "flash-back",
+      "subcategoriaId": "flash-back__flashback-dancante-anos-60-70-80",
+      "nome": "FlashBack Dançante anos 60 - 70 - 80",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1,
+      "previewUrls": [
+        "previews/Flash Back/FlashBack Dançante anos 60 - 70 - 80/musica01.mp3",
+        "previews/Flash Back/FlashBack Dançante anos 60 - 70 - 80/musica02.mp3",
+        "previews/Flash Back/FlashBack Dançante anos 60 - 70 - 80/musica03.mp3",
+        "previews/Flash Back/FlashBack Dançante anos 60 - 70 - 80/musica04.mp3",
+        "previews/Flash Back/FlashBack Dançante anos 60 - 70 - 80/musica05.mp3",
+        "previews/Flash Back/FlashBack Dançante anos 60 - 70 - 80/musica06.mp3"
+      ]
+    },
+    {
+      "id": "est_flash-back_002",
+      "categoriaId": "flash-back",
+      "subcategoriaId": "flash-back__flashback-dancante-anos-90-2000",
+      "nome": "FlashBack Dançante anos 90 - 2000",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 2,
+      "previewUrls": [
+        "previews/Flash Back/FlashBack Dançante anos 90 - 2000/musica01.mp3",
+        "previews/Flash Back/FlashBack Dançante anos 90 - 2000/musica02.mp3",
+        "previews/Flash Back/FlashBack Dançante anos 90 - 2000/musica03.mp3"
+      ]
+    },
+    {
+      "id": "est_flash-back_003",
+      "categoriaId": "flash-back",
+      "subcategoriaId": "flash-back__flashback-romantico-70-80",
+      "nome": "Flashback Romantico 70 - 80",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 3,
+      "previewUrls": [
+        "previews/Flash Back/Flashback Romantico 70 - 80/musica01.mp3",
+        "previews/Flash Back/Flashback Romantico 70 - 80/musica02.mp3",
+        "previews/Flash Back/Flashback Romantico 70 - 80/musica03.mp3"
+      ]
+    },
+    {
+      "id": "est_flash-back_004",
+      "categoriaId": "flash-back",
+      "subcategoriaId": "flash-back__flashback-romantico-90-2000",
+      "nome": "Flashback Romantico 90 - 2000",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 4,
+      "previewUrls": [
+        "previews/Flash Back/Flashback Romantico 90 - 2000/musica01.mp3",
+        "previews/Flash Back/Flashback Romantico 90 - 2000/musica02.mp3",
+        "previews/Flash Back/Flashback Romantico 90 - 2000/musica03.mp3"
+      ]
+    }
+  ]
+}

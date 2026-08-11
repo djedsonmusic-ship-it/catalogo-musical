@@ -1,0 +1,40 @@
+{
+  "categoriaId": "sertanejo",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Enriquecimentos são preservados entre execuções — não editar à mão.",
+  "estilos": [
+    {
+      "id": "est_sertanejo_001",
+      "categoriaId": "sertanejo",
+      "subcategoriaId": "sertanejo__raiz",
+      "nome": "Raiz",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1,
+      "previewUrls": [
+        "previews/Sertanejo/Raiz/musica01.mp3"
+      ]
+    },
+    {
+      "id": "est_sertanejo_002",
+      "categoriaId": "sertanejo",
+      "subcategoriaId": "sertanejo__universitario",
+      "nome": "Universitário",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 2,
+      "previewUrls": [
+        "previews/Sertanejo/Universitário/musica01.mp3",
+        "previews/Sertanejo/Universitário/musica02.mp3",
+        "previews/Sertanejo/Universitário/musica03.mp3"
+      ]
+    }
+  ]
+}

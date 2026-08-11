@@ -1,0 +1,7 @@
+{
+  "aviso": "Correções pontuais e conhecidas de codificação do CSV de origem (ex.: apóstrofo virou '_' em uma exportação anterior — ver relatório da Sprint 12). Chave = texto exatamente como sai do CSV; valor = texto correto. Adicione novas linhas aqui conforme forem encontradas — não é necessário mexer em migrar-csv-para-catalogo.py.",
+  "correcoes": {
+    "As Melhores do Gigi D_Agostino": "As Melhores do Gigi D'Agostino",
+    "Drum N_Bass": "Drum N'Bass"
+  }
+}

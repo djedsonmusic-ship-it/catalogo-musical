@@ -1,0 +1,24 @@
+{
+  "categoriaId": "pop",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Enriquecimentos são preservados entre execuções — não editar à mão.",
+  "estilos": [
+    {
+      "id": "est_pop_001",
+      "categoriaId": "pop",
+      "subcategoriaId": "pop__k-pop",
+      "nome": "K-Pop",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1,
+      "previewUrls": [
+        "previews/Pop/K-Pop/musica01.mp3",
+        "previews/Pop/K-Pop/musica02.mp3",
+        "previews/Pop/K-Pop/musica03.mp3"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1340 @@
+{
+  "versaoSchema": "3.0-estrutura-definitiva",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py a partir de catalogo_origem.csv. Enriquecimentos (preço/músicas/espaço/descrição/tags/preview) são preservados entre execuções via subcategoriaId — não editar à mão.",
+  "categorias": [
+    {
+      "id": "academia",
+      "nome": "Academia",
+      "slug": "academia",
+      "icone": "padrao",
+      "cor": "#5B5FEF",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "arrocha",
+      "nome": "Arrocha",
+      "slug": "arrocha",
+      "icone": "microfone",
+      "cor": "#1FAA59",
+      "ordemExibicao": 2,
+      "status": "ativo"
+    },
+    {
+      "id": "black-music",
+      "nome": "Black Music",
+      "slug": "black-music",
+      "icone": "microfone",
+      "cor": "#F5A623",
+      "ordemExibicao": 3,
+      "status": "ativo"
+    },
+    {
+      "id": "blues",
+      "nome": "Blues",
+      "slug": "blues",
+      "icone": "guitarra",
+      "cor": "#E85D75",
+      "ordemExibicao": 4,
+      "status": "ativo"
+    },
+    {
+      "id": "bossa-nova",
+      "nome": "Bossa Nova",
+      "slug": "bossa-nova",
+      "icone": "violao",
+      "cor": "#D9822B",
+      "ordemExibicao": 5,
+      "status": "ativo"
+    },
+    {
+      "id": "brega",
+      "nome": "Brega",
+      "slug": "brega",
+      "icone": "microfone",
+      "cor": "#3D8BFF",
+      "ordemExibicao": 6,
+      "status": "ativo"
+    },
+    {
+      "id": "carnaval",
+      "nome": "Carnaval",
+      "slug": "carnaval",
+      "icone": "pandeiro",
+      "cor": "#8B5CF6",
+      "ordemExibicao": 7,
+      "status": "ativo"
+    },
+    {
+      "id": "classicas",
+      "nome": "Clássicas",
+      "slug": "classicas",
+      "icone": "violao",
+      "cor": "#0EA5A5",
+      "ordemExibicao": 8,
+      "status": "ativo"
+    },
+    {
+      "id": "country",
+      "nome": "Country",
+      "slug": "country",
+      "icone": "violao",
+      "cor": "#C7373F",
+      "ordemExibicao": 9,
+      "status": "ativo"
+    },
+    {
+      "id": "cumbia",
+      "nome": "Cumbia",
+      "slug": "cumbia",
+      "icone": "globo",
+      "cor": "#2E9E6B",
+      "ordemExibicao": 10,
+      "status": "ativo"
+    },
+    {
+      "id": "danca-de-salao",
+      "nome": "Dança de Salão",
+      "slug": "danca-de-salao",
+      "icone": "pandeiro",
+      "cor": "#B7791F",
+      "ordemExibicao": 11,
+      "status": "ativo"
+    },
+    {
+      "id": "discografia",
+      "nome": "Discografia",
+      "slug": "discografia",
+      "icone": "padrao",
+      "cor": "#4F46E5",
+      "ordemExibicao": 12,
+      "status": "ativo"
+    },
+    {
+      "id": "eletronicas",
+      "nome": "Eletrônicas",
+      "slug": "eletronicas",
+      "icone": "onda",
+      "cor": "#5B5FEF",
+      "ordemExibicao": 13,
+      "status": "ativo"
+    },
+    {
+      "id": "flash-back",
+      "nome": "Flash Back",
+      "slug": "flash-back",
+      "icone": "padrao",
+      "cor": "#1FAA59",
+      "ordemExibicao": 14,
+      "status": "ativo"
+    },
+    {
+      "id": "forro",
+      "nome": "Forró",
+      "slug": "forro",
+      "icone": "pandeiro",
+      "cor": "#F5A623",
+      "ordemExibicao": 15,
+      "status": "ativo"
+    },
+    {
+      "id": "freestyle",
+      "nome": "Freestyle",
+      "slug": "freestyle",
+      "icone": "onda",
+      "cor": "#E85D75",
+      "ordemExibicao": 16,
+      "status": "ativo"
+    },
+    {
+      "id": "funk",
+      "nome": "Funk",
+      "slug": "funk",
+      "icone": "microfone",
+      "cor": "#D9822B",
+      "ordemExibicao": 17,
+      "status": "ativo"
+    },
+    {
+      "id": "gospel",
+      "nome": "Gospel",
+      "slug": "gospel",
+      "icone": "globo",
+      "cor": "#3D8BFF",
+      "ordemExibicao": 18,
+      "status": "ativo"
+    },
+    {
+      "id": "infantil",
+      "nome": "Infantil",
+      "slug": "infantil",
+      "icone": "globo",
+      "cor": "#8B5CF6",
+      "ordemExibicao": 19,
+      "status": "ativo"
+    },
+    {
+      "id": "internacionais",
+      "nome": "Internacionais",
+      "slug": "internacionais",
+      "icone": "padrao",
+      "cor": "#0EA5A5",
+      "ordemExibicao": 20,
+      "status": "ativo"
+    },
+    {
+      "id": "jazz",
+      "nome": "Jazz",
+      "slug": "jazz",
+      "icone": "violao",
+      "cor": "#C7373F",
+      "ordemExibicao": 21,
+      "status": "ativo"
+    },
+    {
+      "id": "jovem-guarda",
+      "nome": "Jovem Guarda",
+      "slug": "jovem-guarda",
+      "icone": "guitarra",
+      "cor": "#2E9E6B",
+      "ordemExibicao": 22,
+      "status": "ativo"
+    },
+    {
+      "id": "miami-bass",
+      "nome": "Miami Bass",
+      "slug": "miami-bass",
+      "icone": "onda",
+      "cor": "#B7791F",
+      "ordemExibicao": 23,
+      "status": "ativo"
+    },
+    {
+      "id": "moda-de-viola",
+      "nome": "Moda de Viola",
+      "slug": "moda-de-viola",
+      "icone": "violao",
+      "cor": "#4F46E5",
+      "ordemExibicao": 24,
+      "status": "ativo"
+    },
+    {
+      "id": "mpb",
+      "nome": "MPB",
+      "slug": "mpb",
+      "icone": "violao",
+      "cor": "#5B5FEF",
+      "ordemExibicao": 25,
+      "status": "ativo"
+    },
+    {
+      "id": "pagode",
+      "nome": "Pagode",
+      "slug": "pagode",
+      "icone": "microfone",
+      "cor": "#1FAA59",
+      "ordemExibicao": 26,
+      "status": "ativo"
+    },
+    {
+      "id": "piseiro",
+      "nome": "Piseiro",
+      "slug": "piseiro",
+      "icone": "microfone",
+      "cor": "#F5A623",
+      "ordemExibicao": 27,
+      "status": "ativo"
+    },
+    {
+      "id": "pop",
+      "nome": "Pop",
+      "slug": "pop",
+      "icone": "padrao",
+      "cor": "#E85D75",
+      "ordemExibicao": 28,
+      "status": "ativo"
+    },
+    {
+      "id": "rock",
+      "nome": "Rock",
+      "slug": "rock",
+      "icone": "guitarra",
+      "cor": "#D9822B",
+      "ordemExibicao": 29,
+      "status": "ativo"
+    },
+    {
+      "id": "rap-hip-hop",
+      "nome": "Rap - Hip Hop",
+      "slug": "rap-hip-hop",
+      "icone": "microfone",
+      "cor": "#3D8BFF",
+      "ordemExibicao": 30,
+      "status": "ativo"
+    },
+    {
+      "id": "reggae",
+      "nome": "Reggae",
+      "slug": "reggae",
+      "icone": "globo",
+      "cor": "#8B5CF6",
+      "ordemExibicao": 31,
+      "status": "ativo"
+    },
+    {
+      "id": "samba",
+      "nome": "Samba",
+      "slug": "samba",
+      "icone": "microfone",
+      "cor": "#0EA5A5",
+      "ordemExibicao": 32,
+      "status": "ativo"
+    },
+    {
+      "id": "serestas",
+      "nome": "Serestas",
+      "slug": "serestas",
+      "icone": "violao",
+      "cor": "#C7373F",
+      "ordemExibicao": 33,
+      "status": "ativo"
+    },
+    {
+      "id": "sertanejo",
+      "nome": "Sertanejo",
+      "slug": "sertanejo",
+      "icone": "microfone",
+      "cor": "#2E9E6B",
+      "ordemExibicao": 34,
+      "status": "ativo"
+    },
+    {
+      "id": "temas-de-filmes",
+      "nome": "Temas de Filmes",
+      "slug": "temas-de-filmes",
+      "icone": "padrao",
+      "cor": "#B7791F",
+      "ordemExibicao": 35,
+      "status": "ativo"
+    },
+    {
+      "id": "zumba",
+      "nome": "Zumba",
+      "slug": "zumba",
+      "icone": "pandeiro",
+      "cor": "#4F46E5",
+      "ordemExibicao": 36,
+      "status": "ativo"
+    }
+  ],
+  "subcategorias": [
+    {
+      "id": "academia__musicas-para-treinar",
+      "categoriaId": "academia",
+      "nome": "Músicas para treinar",
+      "slug": "musicas-para-treinar",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "academia__crossfit",
+      "categoriaId": "academia",
+      "nome": "Crossfit",
+      "slug": "crossfit",
+      "ordemExibicao": 2,
+      "status": "ativo"
+    },
+    {
+      "id": "academia__yoga-meditacao",
+      "categoriaId": "academia",
+      "nome": "Yoga & Meditação",
+      "slug": "yoga-meditacao",
+      "ordemExibicao": 3,
+      "status": "ativo"
+    },
+    {
+      "id": "arrocha__arrocha-atualizadas",
+      "categoriaId": "arrocha",
+      "nome": "Arrocha atualizadas",
+      "slug": "arrocha-atualizadas",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "arrocha__arrocha-antigas",
+      "categoriaId": "arrocha",
+      "nome": "Arrocha antigas",
+      "slug": "arrocha-antigas",
+      "ordemExibicao": 2,
+      "status": "ativo"
+    },
+    {
+      "id": "black-music__black-98-2000",
+      "categoriaId": "black-music",
+      "nome": "Black 98 - 2000",
+      "slug": "black-98-2000",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "blues__blues-internacional",
+      "categoriaId": "blues",
+      "nome": "Blues Internacional",
+      "slug": "blues-internacional",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "bossa-nova__lounge-brazil",
+      "categoriaId": "bossa-nova",
+      "nome": "Lounge Brazil",
+      "slug": "lounge-brazil",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "brega__brega-atual",
+      "categoriaId": "brega",
+      "nome": "Brega atual",
+      "slug": "brega-atual",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "brega__tecnobrega",
+      "categoriaId": "brega",
+      "nome": "Tecnobrega",
+      "slug": "tecnobrega",
+      "ordemExibicao": 2,
+      "status": "ativo"
+    },
+    {
+      "id": "brega__brega-funk",
+      "categoriaId": "brega",
+      "nome": "Brega Funk",
+      "slug": "brega-funk",
+      "ordemExibicao": 3,
+      "status": "ativo"
+    },
+    {
+      "id": "brega__brega-paraense",
+      "categoriaId": "brega",
+      "nome": "Brega Paraense",
+      "slug": "brega-paraense",
+      "ordemExibicao": 4,
+      "status": "ativo"
+    },
+    {
+      "id": "brega__brega-pernambucano",
+      "categoriaId": "brega",
+      "nome": "Brega Pernambucano",
+      "slug": "brega-pernambucano",
+      "ordemExibicao": 5,
+      "status": "ativo"
+    },
+    {
+      "id": "brega__brega-antigo",
+      "categoriaId": "brega",
+      "nome": "Brega Antigo",
+      "slug": "brega-antigo",
+      "ordemExibicao": 6,
+      "status": "ativo"
+    },
+    {
+      "id": "carnaval__marchinhas",
+      "categoriaId": "carnaval",
+      "nome": "Marchinhas",
+      "slug": "marchinhas",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "carnaval__sambas-de-enredo-rj",
+      "categoriaId": "carnaval",
+      "nome": "Sambas de Enredo RJ",
+      "slug": "sambas-de-enredo-rj",
+      "ordemExibicao": 2,
+      "status": "ativo"
+    },
+    {
+      "id": "carnaval__axe-geral-bahia",
+      "categoriaId": "carnaval",
+      "nome": "Axé Geral (Bahia)",
+      "slug": "axe-geral-bahia",
+      "ordemExibicao": 3,
+      "status": "ativo"
+    },
+    {
+      "id": "carnaval__frevo-recife",
+      "categoriaId": "carnaval",
+      "nome": "Frevo (Recife)",
+      "slug": "frevo-recife",
+      "ordemExibicao": 4,
+      "status": "ativo"
+    },
+    {
+      "id": "classicas__musicas-classicas",
+      "categoriaId": "classicas",
+      "nome": "Músicas Clássicas",
+      "slug": "musicas-classicas",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "classicas__opera",
+      "categoriaId": "classicas",
+      "nome": "Ópera",
+      "slug": "opera",
+      "ordemExibicao": 2,
+      "status": "ativo"
+    },
+    {
+      "id": "country__country",
+      "categoriaId": "country",
+      "nome": "Country",
+      "slug": "country",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "cumbia__cumbias-argentinas",
+      "categoriaId": "cumbia",
+      "nome": "Cumbias Argentinas",
+      "slug": "cumbias-argentinas",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "cumbia__cumbias-colombianas",
+      "categoriaId": "cumbia",
+      "nome": "Cumbias Colombianas",
+      "slug": "cumbias-colombianas",
+      "ordemExibicao": 2,
+      "status": "ativo"
+    },
+    {
+      "id": "danca-de-salao__bale-classico",
+      "categoriaId": "danca-de-salao",
+      "nome": "Balé Clássico",
+      "slug": "bale-classico",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "danca-de-salao__boleros",
+      "categoriaId": "danca-de-salao",
+      "nome": "Boleros",
+      "slug": "boleros",
+      "ordemExibicao": 2,
+      "status": "ativo"
+    },
+    {
+      "id": "danca-de-salao__danca-contemporanea",
+      "categoriaId": "danca-de-salao",
+      "nome": "Dança Contemporânea",
+      "slug": "danca-contemporanea",
+      "ordemExibicao": 3,
+      "status": "ativo"
+    },
+    {
+      "id": "danca-de-salao__danca-do-ventre",
+      "categoriaId": "danca-de-salao",
+      "nome": "Dança do Ventre",
+      "slug": "danca-do-ventre",
+      "ordemExibicao": 4,
+      "status": "ativo"
+    },
+    {
+      "id": "danca-de-salao__kizomba",
+      "categoriaId": "danca-de-salao",
+      "nome": "Kizomba",
+      "slug": "kizomba",
+      "ordemExibicao": 5,
+      "status": "ativo"
+    },
+    {
+      "id": "danca-de-salao__lambada",
+      "categoriaId": "danca-de-salao",
+      "nome": "Lambada",
+      "slug": "lambada",
+      "ordemExibicao": 6,
+      "status": "ativo"
+    },
+    {
+      "id": "danca-de-salao__salsa",
+      "categoriaId": "danca-de-salao",
+      "nome": "Salsa",
+      "slug": "salsa",
+      "ordemExibicao": 7,
+      "status": "ativo"
+    },
+    {
+      "id": "danca-de-salao__zouk",
+      "categoriaId": "danca-de-salao",
+      "nome": "Zouk",
+      "slug": "zouk",
+      "ordemExibicao": 8,
+      "status": "ativo"
+    },
+    {
+      "id": "danca-de-salao__tango",
+      "categoriaId": "danca-de-salao",
+      "nome": "Tango",
+      "slug": "tango",
+      "ordemExibicao": 9,
+      "status": "ativo"
+    },
+    {
+      "id": "danca-de-salao__sapateado",
+      "categoriaId": "danca-de-salao",
+      "nome": "Sapateado",
+      "slug": "sapateado",
+      "ordemExibicao": 10,
+      "status": "ativo"
+    },
+    {
+      "id": "danca-de-salao__valsa",
+      "categoriaId": "danca-de-salao",
+      "nome": "Valsa",
+      "slug": "valsa",
+      "ordemExibicao": 11,
+      "status": "ativo"
+    },
+    {
+      "id": "discografia__diversas",
+      "categoriaId": "discografia",
+      "nome": "Diversas",
+      "slug": "diversas",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "eletronicas__eletrofunk",
+      "categoriaId": "eletronicas",
+      "nome": "EletroFunk",
+      "slug": "eletrofunk",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "eletronicas__afro-house",
+      "categoriaId": "eletronicas",
+      "nome": "Afro House",
+      "slug": "afro-house",
+      "ordemExibicao": 2,
+      "status": "ativo"
+    },
+    {
+      "id": "eletronicas__as-melhores-do-alok",
+      "categoriaId": "eletronicas",
+      "nome": "As Melhores do Alok",
+      "slug": "as-melhores-do-alok",
+      "ordemExibicao": 3,
+      "status": "ativo"
+    },
+    {
+      "id": "eletronicas__as-melhores-do-david-guetta",
+      "categoriaId": "eletronicas",
+      "nome": "As Melhores do David Guetta",
+      "slug": "as-melhores-do-david-guetta",
+      "ordemExibicao": 4,
+      "status": "ativo"
+    },
+    {
+      "id": "eletronicas__as-melhores-do-alan-walker",
+      "categoriaId": "eletronicas",
+      "nome": "As Melhores do Alan Walker",
+      "slug": "as-melhores-do-alan-walker",
+      "ordemExibicao": 5,
+      "status": "ativo"
+    },
+    {
+      "id": "eletronicas__as-melhores-do-armin-van-buuren",
+      "categoriaId": "eletronicas",
+      "nome": "As Melhores do Armin van Buuren",
+      "slug": "as-melhores-do-armin-van-buuren",
+      "ordemExibicao": 6,
+      "status": "ativo"
+    },
+    {
+      "id": "eletronicas__as-melhores-do-benny-benassi",
+      "categoriaId": "eletronicas",
+      "nome": "As Melhores do Benny Benassi",
+      "slug": "as-melhores-do-benny-benassi",
+      "ordemExibicao": 7,
+      "status": "ativo"
+    },
+    {
+      "id": "eletronicas__as-melhores-do-calvin-harris",
+      "categoriaId": "eletronicas",
+      "nome": "As Melhores do Calvin Harris",
+      "slug": "as-melhores-do-calvin-harris",
+      "ordemExibicao": 8,
+      "status": "ativo"
+    },
+    {
+      "id": "eletronicas__as-melhores-do-dimitri-vegas-e-like-mike",
+      "categoriaId": "eletronicas",
+      "nome": "As Melhores do Dimitri Vegas e Like Mike",
+      "slug": "as-melhores-do-dimitri-vegas-e-like-mike",
+      "ordemExibicao": 9,
+      "status": "ativo"
+    },
+    {
+      "id": "eletronicas__as-melhores-do-dj-ross",
+      "categoriaId": "eletronicas",
+      "nome": "As Melhores do DJ Ross",
+      "slug": "as-melhores-do-dj-ross",
+      "ordemExibicao": 10,
+      "status": "ativo"
+    },
+    {
+      "id": "eletronicas__as-melhores-do-gigi-d-agostino",
+      "categoriaId": "eletronicas",
+      "nome": "As Melhores do Gigi D'Agostino",
+      "slug": "as-melhores-do-gigi-d-agostino",
+      "ordemExibicao": 11,
+      "status": "ativo"
+    },
+    {
+      "id": "eletronicas__as-melhores-do-kasino",
+      "categoriaId": "eletronicas",
+      "nome": "As Melhores do Kasino",
+      "slug": "as-melhores-do-kasino",
+      "ordemExibicao": 12,
+      "status": "ativo"
+    },
+    {
+      "id": "eletronicas__as-melhores-do-swedish-house-mafia",
+      "categoriaId": "eletronicas",
+      "nome": "As Melhores do Swedish House Mafia",
+      "slug": "as-melhores-do-swedish-house-mafia",
+      "ordemExibicao": 13,
+      "status": "ativo"
+    },
+    {
+      "id": "eletronicas__as-melhores-do-tiesto",
+      "categoriaId": "eletronicas",
+      "nome": "As Melhores do Tiesto",
+      "slug": "as-melhores-do-tiesto",
+      "ordemExibicao": 14,
+      "status": "ativo"
+    },
+    {
+      "id": "eletronicas__drum-n-bass",
+      "categoriaId": "eletronicas",
+      "nome": "Drum N'Bass",
+      "slug": "drum-n-bass",
+      "ordemExibicao": 15,
+      "status": "ativo"
+    },
+    {
+      "id": "eletronicas__nacionais-remix",
+      "categoriaId": "eletronicas",
+      "nome": "Nacionais Remix",
+      "slug": "nacionais-remix",
+      "ordemExibicao": 16,
+      "status": "ativo"
+    },
+    {
+      "id": "eletronicas__house",
+      "categoriaId": "eletronicas",
+      "nome": "House",
+      "slug": "house",
+      "ordemExibicao": 17,
+      "status": "ativo"
+    },
+    {
+      "id": "eletronicas__tech-house",
+      "categoriaId": "eletronicas",
+      "nome": "Tech House",
+      "slug": "tech-house",
+      "ordemExibicao": 18,
+      "status": "ativo"
+    },
+    {
+      "id": "eletronicas__techno",
+      "categoriaId": "eletronicas",
+      "nome": "Techno",
+      "slug": "techno",
+      "ordemExibicao": 19,
+      "status": "ativo"
+    },
+    {
+      "id": "eletronicas__trap",
+      "categoriaId": "eletronicas",
+      "nome": "Trap",
+      "slug": "trap",
+      "ordemExibicao": 20,
+      "status": "ativo"
+    },
+    {
+      "id": "eletronicas__psy-trance",
+      "categoriaId": "eletronicas",
+      "nome": "Psy Trance",
+      "slug": "psy-trance",
+      "ordemExibicao": 21,
+      "status": "ativo"
+    },
+    {
+      "id": "eletronicas__tribal-house",
+      "categoriaId": "eletronicas",
+      "nome": "Tribal House",
+      "slug": "tribal-house",
+      "ordemExibicao": 22,
+      "status": "ativo"
+    },
+    {
+      "id": "eletronicas__acid-house",
+      "categoriaId": "eletronicas",
+      "nome": "Acid House",
+      "slug": "acid-house",
+      "ordemExibicao": 23,
+      "status": "ativo"
+    },
+    {
+      "id": "eletronicas__deep-house",
+      "categoriaId": "eletronicas",
+      "nome": "Deep House",
+      "slug": "deep-house",
+      "ordemExibicao": 24,
+      "status": "ativo"
+    },
+    {
+      "id": "eletronicas__tecno",
+      "categoriaId": "eletronicas",
+      "nome": "Tecno",
+      "slug": "tecno",
+      "ordemExibicao": 25,
+      "status": "ativo"
+    },
+    {
+      "id": "eletronicas__rave",
+      "categoriaId": "eletronicas",
+      "nome": "Rave",
+      "slug": "rave",
+      "ordemExibicao": 26,
+      "status": "ativo"
+    },
+    {
+      "id": "eletronicas__eurodance-anos-90",
+      "categoriaId": "eletronicas",
+      "nome": "Eurodance anos 90",
+      "slug": "eurodance-anos-90",
+      "ordemExibicao": 27,
+      "status": "ativo"
+    },
+    {
+      "id": "eletronicas__progressive-house",
+      "categoriaId": "eletronicas",
+      "nome": "Progressive House",
+      "slug": "progressive-house",
+      "ordemExibicao": 28,
+      "status": "ativo"
+    },
+    {
+      "id": "flash-back__flashback-dancante-anos-60-70-80",
+      "categoriaId": "flash-back",
+      "nome": "FlashBack Dançante anos 60 - 70 - 80",
+      "slug": "flashback-dancante-anos-60-70-80",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "flash-back__flashback-dancante-anos-90-2000",
+      "categoriaId": "flash-back",
+      "nome": "FlashBack Dançante anos 90 - 2000",
+      "slug": "flashback-dancante-anos-90-2000",
+      "ordemExibicao": 2,
+      "status": "ativo"
+    },
+    {
+      "id": "flash-back__flashback-romantico-70-80",
+      "categoriaId": "flash-back",
+      "nome": "Flashback Romantico 70 - 80",
+      "slug": "flashback-romantico-70-80",
+      "ordemExibicao": 3,
+      "status": "ativo"
+    },
+    {
+      "id": "flash-back__flashback-romantico-90-2000",
+      "categoriaId": "flash-back",
+      "nome": "Flashback Romantico 90 - 2000",
+      "slug": "flashback-romantico-90-2000",
+      "ordemExibicao": 4,
+      "status": "ativo"
+    },
+    {
+      "id": "forro__atual",
+      "categoriaId": "forro",
+      "nome": "Atual",
+      "slug": "atual",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "forro__antigo",
+      "categoriaId": "forro",
+      "nome": "Antigo",
+      "slug": "antigo",
+      "ordemExibicao": 2,
+      "status": "ativo"
+    },
+    {
+      "id": "forro__festa-junina",
+      "categoriaId": "forro",
+      "nome": "Festa Junina",
+      "slug": "festa-junina",
+      "ordemExibicao": 3,
+      "status": "ativo"
+    },
+    {
+      "id": "forro__vaquejada",
+      "categoriaId": "forro",
+      "nome": "Vaquejada",
+      "slug": "vaquejada",
+      "ordemExibicao": 4,
+      "status": "ativo"
+    },
+    {
+      "id": "forro__forro-pe-de-serra",
+      "categoriaId": "forro",
+      "nome": "Forró Pé de Serra",
+      "slug": "forro-pe-de-serra",
+      "ordemExibicao": 5,
+      "status": "ativo"
+    },
+    {
+      "id": "forro__forro-romantico",
+      "categoriaId": "forro",
+      "nome": "Forró Romântico",
+      "slug": "forro-romantico",
+      "ordemExibicao": 6,
+      "status": "ativo"
+    },
+    {
+      "id": "forro__forro-universitario",
+      "categoriaId": "forro",
+      "nome": "Forró Universitário",
+      "slug": "forro-universitario",
+      "ordemExibicao": 7,
+      "status": "ativo"
+    },
+    {
+      "id": "freestyle__freestyle-anos-80",
+      "categoriaId": "freestyle",
+      "nome": "Freestyle anos 80",
+      "slug": "freestyle-anos-80",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "funk__brasil",
+      "categoriaId": "funk",
+      "nome": "Brasil",
+      "slug": "brasil",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "funk__furacao-2000",
+      "categoriaId": "funk",
+      "nome": "Furacão 2000",
+      "slug": "furacao-2000",
+      "ordemExibicao": 2,
+      "status": "ativo"
+    },
+    {
+      "id": "gospel__louvores",
+      "categoriaId": "gospel",
+      "nome": "Louvores",
+      "slug": "louvores",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "gospel__hinos-antigos",
+      "categoriaId": "gospel",
+      "nome": "Hinos Antigos",
+      "slug": "hinos-antigos",
+      "ordemExibicao": 2,
+      "status": "ativo"
+    },
+    {
+      "id": "gospel__baladas-eletronicas",
+      "categoriaId": "gospel",
+      "nome": "Baladas Eletrônicas",
+      "slug": "baladas-eletronicas",
+      "ordemExibicao": 3,
+      "status": "ativo"
+    },
+    {
+      "id": "gospel__rap-trap",
+      "categoriaId": "gospel",
+      "nome": "Rap - Trap",
+      "slug": "rap-trap",
+      "ordemExibicao": 4,
+      "status": "ativo"
+    },
+    {
+      "id": "gospel__rock",
+      "categoriaId": "gospel",
+      "nome": "Rock",
+      "slug": "rock",
+      "ordemExibicao": 5,
+      "status": "ativo"
+    },
+    {
+      "id": "gospel__sertanejo-gospel",
+      "categoriaId": "gospel",
+      "nome": "Sertanejo Gospel",
+      "slug": "sertanejo-gospel",
+      "ordemExibicao": 6,
+      "status": "ativo"
+    },
+    {
+      "id": "gospel__infantil",
+      "categoriaId": "gospel",
+      "nome": "Infantil",
+      "slug": "infantil",
+      "ordemExibicao": 7,
+      "status": "ativo"
+    },
+    {
+      "id": "gospel__forro",
+      "categoriaId": "gospel",
+      "nome": "Forró",
+      "slug": "forro",
+      "ordemExibicao": 8,
+      "status": "ativo"
+    },
+    {
+      "id": "gospel__funk",
+      "categoriaId": "gospel",
+      "nome": "Funk",
+      "slug": "funk",
+      "ordemExibicao": 9,
+      "status": "ativo"
+    },
+    {
+      "id": "gospel__pagode",
+      "categoriaId": "gospel",
+      "nome": "Pagode",
+      "slug": "pagode",
+      "ordemExibicao": 10,
+      "status": "ativo"
+    },
+    {
+      "id": "gospel__reggae",
+      "categoriaId": "gospel",
+      "nome": "Reggae",
+      "slug": "reggae",
+      "ordemExibicao": 11,
+      "status": "ativo"
+    },
+    {
+      "id": "gospel__samba",
+      "categoriaId": "gospel",
+      "nome": "Samba",
+      "slug": "samba",
+      "ordemExibicao": 12,
+      "status": "ativo"
+    },
+    {
+      "id": "infantil__infantil-geral",
+      "categoriaId": "infantil",
+      "nome": "Infantil (Geral)",
+      "slug": "infantil-geral",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "internacionais__musicas-africanas-argentinas-francesas",
+      "categoriaId": "internacionais",
+      "nome": "Músicas Africanas - Argentinas - Francesas",
+      "slug": "musicas-africanas-argentinas-francesas",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "internacionais__musicas-italianas-japonesas-mexicanas",
+      "categoriaId": "internacionais",
+      "nome": "Músicas Italianas - Japonesas - Mexicanas",
+      "slug": "musicas-italianas-japonesas-mexicanas",
+      "ordemExibicao": 2,
+      "status": "ativo"
+    },
+    {
+      "id": "jazz__jazz",
+      "categoriaId": "jazz",
+      "nome": "Jazz",
+      "slug": "jazz",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "jovem-guarda__jovem-guarda-anos-60-70",
+      "categoriaId": "jovem-guarda",
+      "nome": "Jovem guarda anos 60 - 70",
+      "slug": "jovem-guarda-anos-60-70",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "miami-bass__miami-bass-anos-80",
+      "categoriaId": "miami-bass",
+      "nome": "Miami Bass anos 80",
+      "slug": "miami-bass-anos-80",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "moda-de-viola__moda-de-viola-raiz",
+      "categoriaId": "moda-de-viola",
+      "nome": "Moda de viola Raiz",
+      "slug": "moda-de-viola-raiz",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "mpb__melhores-da-mpb",
+      "categoriaId": "mpb",
+      "nome": "Melhores da MPB",
+      "slug": "melhores-da-mpb",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "pagode__pagode-atual-geral",
+      "categoriaId": "pagode",
+      "nome": "Pagode atual(Geral)",
+      "slug": "pagode-atual-geral",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "pagode__pagode-antigo-geral",
+      "categoriaId": "pagode",
+      "nome": "Pagode antigo(Geral)",
+      "slug": "pagode-antigo-geral",
+      "ordemExibicao": 2,
+      "status": "ativo"
+    },
+    {
+      "id": "pagode__pagode-funk",
+      "categoriaId": "pagode",
+      "nome": "Pagode Funk",
+      "slug": "pagode-funk",
+      "ordemExibicao": 3,
+      "status": "ativo"
+    },
+    {
+      "id": "piseiro__piseiro-atual",
+      "categoriaId": "piseiro",
+      "nome": "Piseiro atual",
+      "slug": "piseiro-atual",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "piseiro__piseiro-antigo",
+      "categoriaId": "piseiro",
+      "nome": "Piseiro antigo",
+      "slug": "piseiro-antigo",
+      "ordemExibicao": 2,
+      "status": "ativo"
+    },
+    {
+      "id": "pop__k-pop",
+      "categoriaId": "pop",
+      "nome": "K-Pop",
+      "slug": "k-pop",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "rock__classic-rock-ballads-lentas",
+      "categoriaId": "rock",
+      "nome": "Classic Rock Ballads(Lentas)",
+      "slug": "classic-rock-ballads-lentas",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "rock__rock-nacional-80s",
+      "categoriaId": "rock",
+      "nome": "Rock Nacional 80s",
+      "slug": "rock-nacional-80s",
+      "ordemExibicao": 2,
+      "status": "ativo"
+    },
+    {
+      "id": "rock__hard-rock",
+      "categoriaId": "rock",
+      "nome": "Hard Rock",
+      "slug": "hard-rock",
+      "ordemExibicao": 3,
+      "status": "ativo"
+    },
+    {
+      "id": "rock__rock-n-roll-classico-50s-60s",
+      "categoriaId": "rock",
+      "nome": "Rock 'n' Roll Clássico (50s-60s)",
+      "slug": "rock-n-roll-classico-50s-60s",
+      "ordemExibicao": 4,
+      "status": "ativo"
+    },
+    {
+      "id": "rock__heavy-metal",
+      "categoriaId": "rock",
+      "nome": "Heavy Metal",
+      "slug": "heavy-metal",
+      "ordemExibicao": 5,
+      "status": "ativo"
+    },
+    {
+      "id": "rock__progressivo",
+      "categoriaId": "rock",
+      "nome": "Progressivo",
+      "slug": "progressivo",
+      "ordemExibicao": 6,
+      "status": "ativo"
+    },
+    {
+      "id": "rock__punk-rock",
+      "categoriaId": "rock",
+      "nome": "Punk Rock",
+      "slug": "punk-rock",
+      "ordemExibicao": 7,
+      "status": "ativo"
+    },
+    {
+      "id": "rap-hip-hop__anos-80-90",
+      "categoriaId": "rap-hip-hop",
+      "nome": "Anos 80 - 90",
+      "slug": "anos-80-90",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "rap-hip-hop__atual",
+      "categoriaId": "rap-hip-hop",
+      "nome": "Atual",
+      "slug": "atual",
+      "ordemExibicao": 2,
+      "status": "ativo"
+    },
+    {
+      "id": "reggae__roots-vinil-disco-bolachao",
+      "categoriaId": "reggae",
+      "nome": "Roots Vinil (Disco Bolachão)",
+      "slug": "roots-vinil-disco-bolachao",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "reggae__eletronico-maranhao",
+      "categoriaId": "reggae",
+      "nome": "Eletrônico (Maranhão)",
+      "slug": "eletronico-maranhao",
+      "ordemExibicao": 2,
+      "status": "ativo"
+    },
+    {
+      "id": "reggae__eletronico-caminhoneiro",
+      "categoriaId": "reggae",
+      "nome": "Eletrônico (Caminhoneiro)",
+      "slug": "eletronico-caminhoneiro",
+      "ordemExibicao": 3,
+      "status": "ativo"
+    },
+    {
+      "id": "reggae__nacional",
+      "categoriaId": "reggae",
+      "nome": "Nacional",
+      "slug": "nacional",
+      "ordemExibicao": 4,
+      "status": "ativo"
+    },
+    {
+      "id": "reggae__reggaeton",
+      "categoriaId": "reggae",
+      "nome": "Reggaeton",
+      "slug": "reggaeton",
+      "ordemExibicao": 5,
+      "status": "ativo"
+    },
+    {
+      "id": "reggae__dub-instrumental",
+      "categoriaId": "reggae",
+      "nome": "Dub (Instrumental)",
+      "slug": "dub-instrumental",
+      "ordemExibicao": 6,
+      "status": "ativo"
+    },
+    {
+      "id": "reggae__dancehall",
+      "categoriaId": "reggae",
+      "nome": "Dancehall",
+      "slug": "dancehall",
+      "ordemExibicao": 7,
+      "status": "ativo"
+    },
+    {
+      "id": "samba__sambas-raiz",
+      "categoriaId": "samba",
+      "nome": "Sambas Raiz",
+      "slug": "sambas-raiz",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "serestas__serestas-nacionais",
+      "categoriaId": "serestas",
+      "nome": "Serestas Nacionais",
+      "slug": "serestas-nacionais",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "serestas__serestas-internacionais",
+      "categoriaId": "serestas",
+      "nome": "Serestas Internacionais",
+      "slug": "serestas-internacionais",
+      "ordemExibicao": 2,
+      "status": "ativo"
+    },
+    {
+      "id": "sertanejo__raiz",
+      "categoriaId": "sertanejo",
+      "nome": "Raiz",
+      "slug": "raiz",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "sertanejo__universitario",
+      "categoriaId": "sertanejo",
+      "nome": "Universitário",
+      "slug": "universitario",
+      "ordemExibicao": 2,
+      "status": "ativo"
+    },
+    {
+      "id": "temas-de-filmes__temas-de-filmes",
+      "categoriaId": "temas-de-filmes",
+      "nome": "Temas de Filmes",
+      "slug": "temas-de-filmes",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "zumba__zumba-hits",
+      "categoriaId": "zumba",
+      "nome": "Zumba Hits",
+      "slug": "zumba-hits",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    }
+  ]
+}
