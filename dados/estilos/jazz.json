@@ -1,0 +1,19 @@
+{
+  "categoriaId": "jazz",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Enriquecimentos são preservados entre execuções — não editar à mão.",
+  "estilos": [
+    {
+      "id": "est_jazz_001",
+      "categoriaId": "jazz",
+      "subcategoriaId": "jazz__jazz",
+      "nome": "Jazz",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1
+    }
+  ]
+}

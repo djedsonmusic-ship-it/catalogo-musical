@@ -1,0 +1,42 @@
+{
+  "categoriaId": "classicas",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Enriquecimentos são preservados entre execuções — não editar à mão.",
+  "estilos": [
+    {
+      "id": "est_classicas_001",
+      "categoriaId": "classicas",
+      "subcategoriaId": "classicas__musicas-classicas",
+      "nome": "Músicas Clássicas",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1,
+      "previewUrls": [
+        "previews/Clássicas/Músicas Clássicas/musica01.mp3",
+        "previews/Clássicas/Músicas Clássicas/musica02.mp3",
+        "previews/Clássicas/Músicas Clássicas/musica03.mp3"
+      ]
+    },
+    {
+      "id": "est_classicas_002",
+      "categoriaId": "classicas",
+      "subcategoriaId": "classicas__opera",
+      "nome": "Ópera",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 2,
+      "previewUrls": [
+        "previews/Clássicas/Ópera/musica01.mp3",
+        "previews/Clássicas/Ópera/musica02.mp3",
+        "previews/Clássicas/Ópera/musica03.mp3"
+      ]
+    }
+  ]
+}

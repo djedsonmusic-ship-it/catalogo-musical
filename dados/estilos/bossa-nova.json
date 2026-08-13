@@ -1,0 +1,24 @@
+{
+  "categoriaId": "bossa-nova",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Enriquecimentos são preservados entre execuções — não editar à mão.",
+  "estilos": [
+    {
+      "id": "est_bossa-nova_001",
+      "categoriaId": "bossa-nova",
+      "subcategoriaId": "bossa-nova__lounge-brazil",
+      "nome": "Lounge Brazil",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1,
+      "previewUrls": [
+        "previews/Bossa Nova/Lounge Brazil/musica01.mp3",
+        "previews/Bossa Nova/Lounge Brazil/musica02.mp3",
+        "previews/Bossa Nova/Lounge Brazil/musica03.mp3"
+      ]
+    }
+  ]
+}

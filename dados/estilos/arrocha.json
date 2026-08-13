@@ -1,0 +1,42 @@
+{
+  "categoriaId": "arrocha",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Enriquecimentos são preservados entre execuções — não editar à mão.",
+  "estilos": [
+    {
+      "id": "est_arrocha_001",
+      "categoriaId": "arrocha",
+      "subcategoriaId": "arrocha__arrocha-atualizadas",
+      "nome": "Arrocha atualizadas",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1,
+      "previewUrls": [
+        "previews/Arrocha/Arrocha atualizadas/musica01.mp3",
+        "previews/Arrocha/Arrocha atualizadas/musica02.mp3",
+        "previews/Arrocha/Arrocha atualizadas/musica03.mp3"
+      ]
+    },
+    {
+      "id": "est_arrocha_002",
+      "categoriaId": "arrocha",
+      "subcategoriaId": "arrocha__arrocha-antigas",
+      "nome": "Arrocha antigas",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 2,
+      "previewUrls": [
+        "previews/Arrocha/Arrocha antigas/musica01.mp3",
+        "previews/Arrocha/Arrocha antigas/musica02.mp3",
+        "previews/Arrocha/Arrocha antigas/musica03.mp3"
+      ]
+    }
+  ]
+}

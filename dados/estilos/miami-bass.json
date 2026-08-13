@@ -1,0 +1,27 @@
+{
+  "categoriaId": "miami-bass",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Enriquecimentos são preservados entre execuções — não editar à mão.",
+  "estilos": [
+    {
+      "id": "est_miami-bass_001",
+      "categoriaId": "miami-bass",
+      "subcategoriaId": "miami-bass__miami-bass-anos-80",
+      "nome": "Miami Bass anos 80",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1,
+      "previewUrls": [
+        "previews/Miami Bass anos 80/01.mp3",
+        "previews/Miami Bass anos 80/02.mp3",
+        "previews/Miami Bass anos 80/03.mp3",
+        "previews/Miami Bass anos 80/musica01.mp3",
+        "previews/Miami Bass anos 80/musica02.mp3",
+        "previews/Miami Bass anos 80/musica03.mp3"
+      ]
+    }
+  ]
+}

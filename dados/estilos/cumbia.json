@@ -1,0 +1,42 @@
+{
+  "categoriaId": "cumbia",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Enriquecimentos são preservados entre execuções — não editar à mão.",
+  "estilos": [
+    {
+      "id": "est_cumbia_001",
+      "categoriaId": "cumbia",
+      "subcategoriaId": "cumbia__cumbias-argentinas",
+      "nome": "Cumbias Argentinas",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1,
+      "previewUrls": [
+        "previews/Cumbia/Cumbias Argentinas/musica01.mp3",
+        "previews/Cumbia/Cumbias Argentinas/musica02.mp3",
+        "previews/Cumbia/Cumbias Argentinas/musica03.mp3"
+      ]
+    },
+    {
+      "id": "est_cumbia_002",
+      "categoriaId": "cumbia",
+      "subcategoriaId": "cumbia__cumbias-colombianas",
+      "nome": "Cumbias Colombianas",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 2,
+      "previewUrls": [
+        "previews/Cumbia/Cumbias Colombianas/musica01.mp3",
+        "previews/Cumbia/Cumbias Colombianas/musica02.mp3",
+        "previews/Cumbia/Cumbias Colombianas/musica03.mp3"
+      ]
+    }
+  ]
+}

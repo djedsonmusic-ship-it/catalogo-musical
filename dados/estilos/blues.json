@@ -1,0 +1,23 @@
+{
+  "categoriaId": "blues",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Enriquecimentos são preservados entre execuções — não editar à mão.",
+  "estilos": [
+    {
+      "id": "est_blues_001",
+      "categoriaId": "blues",
+      "subcategoriaId": "blues__blues-internacional",
+      "nome": "Blues Internacional",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1,
+      "previewUrls": [
+        "previews/Blues/Blues Internacional/musica01.mp3",
+        "previews/Blues/Blues Internacional/musica02.mp3"
+      ]
+    }
+  ]
+}

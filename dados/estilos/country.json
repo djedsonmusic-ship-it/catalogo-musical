@@ -1,0 +1,24 @@
+{
+  "categoriaId": "country",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Enriquecimentos são preservados entre execuções — não editar à mão.",
+  "estilos": [
+    {
+      "id": "est_country_001",
+      "categoriaId": "country",
+      "subcategoriaId": "country__country",
+      "nome": "Country",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1,
+      "previewUrls": [
+        "previews/Country/Country/musica01.mp3",
+        "previews/Country/Country/musica02.mp3",
+        "previews/Country/Country/musica03.mp3"
+      ]
+    }
+  ]
+}

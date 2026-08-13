@@ -1,0 +1,112 @@
+{
+  "categoriaId": "rock",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Enriquecimentos são preservados entre execuções — não editar à mão.",
+  "estilos": [
+    {
+      "id": "est_rock_001",
+      "categoriaId": "rock",
+      "subcategoriaId": "rock__classic-rock-ballads-lentas",
+      "nome": "Classic Rock Ballads(Lentas)",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1,
+      "previewUrls": [
+        "previews/Rock/Classic Rock Ballads(Lentas)/musica01.mp3",
+        "previews/Rock/Classic Rock Ballads(Lentas)/musica02.mp3",
+        "previews/Rock/Classic Rock Ballads(Lentas)/musica03.mp3"
+      ]
+    },
+    {
+      "id": "est_rock_002",
+      "categoriaId": "rock",
+      "subcategoriaId": "rock__rock-nacional-80s",
+      "nome": "Rock Nacional 80s",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 2,
+      "previewUrls": [
+        "previews/Rock/Rock Nacional 80s/musica01.mp3",
+        "previews/Rock/Rock Nacional 80s/musica02.mp3",
+        "previews/Rock/Rock Nacional 80s/musica03.mp3"
+      ]
+    },
+    {
+      "id": "est_rock_003",
+      "categoriaId": "rock",
+      "subcategoriaId": "rock__hard-rock",
+      "nome": "Hard Rock",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 3,
+      "previewUrls": [
+        "previews/Rock/Hard Rock/musica01.mp3",
+        "previews/Rock/Hard Rock/musica02.mp3",
+        "previews/Rock/Hard Rock/musica03.mp3"
+      ]
+    },
+    {
+      "id": "est_rock_004",
+      "categoriaId": "rock",
+      "subcategoriaId": "rock__rock-n-roll-classico-50s-60s",
+      "nome": "Rock 'n' Roll Clássico (50s-60s)",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 4
+    },
+    {
+      "id": "est_rock_005",
+      "categoriaId": "rock",
+      "subcategoriaId": "rock__heavy-metal",
+      "nome": "Heavy Metal",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 5
+    },
+    {
+      "id": "est_rock_006",
+      "categoriaId": "rock",
+      "subcategoriaId": "rock__progressivo",
+      "nome": "Progressivo",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 6
+    },
+    {
+      "id": "est_rock_007",
+      "categoriaId": "rock",
+      "subcategoriaId": "rock__punk-rock",
+      "nome": "Punk Rock",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 7
+    }
+  ]
+}
