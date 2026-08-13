@@ -1,4 +1,9 @@
 {
-  "aviso": "IDs de estilos que aparecem em 'Em Destaque' na Home, na ordem desejada. Use o campo 'id' de app/dados/estilos/<categoria>.json. Se ficar vazio ou algum id não existir, a Home volta a mostrar os 4 primeiros estilos automaticamente.",
-  "destaquesHome": []
+  "aviso": "IDs de estilos que aparecem em 'Em Destaque' na Home, na ordem desejada. Use o campo 'id' de app/dados/estilos/<categoria>.json. Se ficar vazio ou algum id não existir, a Home volta a mostrar os 4 primeiros estilos automaticamente. Gerado pelo painel admin.html.",
+  "destaquesHome": [
+    "est_reggae_001",
+    "est_reggae_003",
+    "est_miami-bass_001",
+    "est_freestyle_001"
+  ]
 }

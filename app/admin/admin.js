@@ -345,7 +345,15 @@ async function iniciar() {
     }
   }
 
-  function normalizarTexto(texto) {\r\n  function normalizarNomeBase(nomeArquivo) {
+  function normalizarTexto(texto) {
+    return texto
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/[^a-z0-9]/gi, '')
+      .toLowerCase();
+  }
+
+  function normalizarNomeBase(nomeArquivo) {
     return nomeArquivo.replace(/\.[^.]+$/, '');
   }
 
