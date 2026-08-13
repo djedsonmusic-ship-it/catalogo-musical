@@ -1,0 +1,26 @@
+{
+  "categoriaId": "freestyle",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Enriquecimentos são preservados entre execuções — não editar à mão.",
+  "estilos": [
+    {
+      "id": "est_freestyle_001",
+      "categoriaId": "freestyle",
+      "subcategoriaId": "freestyle__freestyle-anos-80",
+      "nome": "Freestyle anos 80",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1,
+      "previewUrls": [
+        "previews/Freestyle anos 80/01.mp3",
+        "previews/Freestyle anos 80/02.mp3",
+        "previews/Freestyle anos 80/03.mp3",
+        "previews/Freestyle anos 80/musica02.mp3",
+        "previews/Freestyle anos 80/musica03.mp3"
+      ]
+    }
+  ]
+}

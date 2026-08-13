@@ -1,0 +1,110 @@
+{
+  "categoriaId": "internacionais",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Não editar à mão — reexecute o script após atualizar o CSV.",
+  "estilos": [
+    {
+      "id": "est_internacionais_001",
+      "categoriaId": "internacionais",
+      "subcategoriaId": "internacionais__musicas-africanas",
+      "nome": "Músicas Africanas",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1
+    },
+    {
+      "id": "est_internacionais_002",
+      "categoriaId": "internacionais",
+      "subcategoriaId": "internacionais__musicas-argentinas",
+      "nome": "Músicas Argentinas",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 2
+    },
+    {
+      "id": "est_internacionais_003",
+      "categoriaId": "internacionais",
+      "subcategoriaId": "internacionais__musicas-espanholas",
+      "nome": "Músicas Espanholas",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 3
+    },
+    {
+      "id": "est_internacionais_004",
+      "categoriaId": "internacionais",
+      "subcategoriaId": "internacionais__musicas-francesas",
+      "nome": "Músicas Francesas",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 4
+    },
+    {
+      "id": "est_internacionais_005",
+      "categoriaId": "internacionais",
+      "subcategoriaId": "internacionais__musicas-indianas",
+      "nome": "Músicas Indianas",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 5
+    },
+    {
+      "id": "est_internacionais_006",
+      "categoriaId": "internacionais",
+      "subcategoriaId": "internacionais__musicas-italianas",
+      "nome": "Músicas Italianas",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 6
+    },
+    {
+      "id": "est_internacionais_007",
+      "categoriaId": "internacionais",
+      "subcategoriaId": "internacionais__musicas-japonesas",
+      "nome": "Músicas Japonesas",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 7
+    },
+    {
+      "id": "est_internacionais_008",
+      "categoriaId": "internacionais",
+      "subcategoriaId": "internacionais__musicas-mexicanas",
+      "nome": "Músicas Mexicanas",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 8
+    }
+  ]
+}

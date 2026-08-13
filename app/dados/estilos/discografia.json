@@ -1,0 +1,19 @@
+{
+  "categoriaId": "discografia",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Enriquecimentos são preservados entre execuções — não editar à mão.",
+  "estilos": [
+    {
+      "id": "est_discografia_001",
+      "categoriaId": "discografia",
+      "subcategoriaId": "discografia__diversas",
+      "nome": "Diversas",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1
+    }
+  ]
+}

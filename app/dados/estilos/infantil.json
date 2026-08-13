@@ -1,0 +1,24 @@
+{
+  "categoriaId": "infantil",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Enriquecimentos são preservados entre execuções — não editar à mão.",
+  "estilos": [
+    {
+      "id": "est_infantil_001",
+      "categoriaId": "infantil",
+      "subcategoriaId": "infantil__infantil-geral",
+      "nome": "Infantil (Geral)",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1,
+      "previewUrls": [
+        "previews/Infantil/Infantil (Geral)/musica01.mp3",
+        "previews/Infantil/Infantil (Geral)/musica02.mp3",
+        "previews/Infantil/Infantil (Geral)/musica03.mp3"
+      ]
+    }
+  ]
+}

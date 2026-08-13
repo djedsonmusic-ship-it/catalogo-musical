@@ -1,0 +1,19 @@
+{
+  "categoriaId": "temas-de-filmes",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Não editar à mão — reexecute o script após atualizar o CSV.",
+  "estilos": [
+    {
+      "id": "est_temas-de-filmes_001",
+      "categoriaId": "temas-de-filmes",
+      "subcategoriaId": "temas-de-filmes__temas-de-filmes",
+      "nome": "Temas de Filmes",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1
+    }
+  ]
+}

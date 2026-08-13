@@ -1,0 +1,6 @@
+{
+  "aviso": "Preencha os campos abaixo com os dados reais de contato do seu negócio. Deixe em branco (\"\") o que não quiser usar — o campo simplesmente não aparecerá na tela de Finalizar Pedido. Pelo menos um canal (whatsapp ou email) deve estar preenchido antes da publicação. IMPORTANTE: o campo 'whatsapp' precisa começar com 55 (código do Brasil), ex.: 5585999487231 — sem o 55 as mensagens não chegam corretamente. O campo 'telefone' (para ligação) não precisa do 55.",
+  "whatsapp": "5585999487231",
+  "email": "djedsonmusic@gmail.com",
+  "telefone": "85999487231"
+}

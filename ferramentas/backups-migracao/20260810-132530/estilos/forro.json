@@ -1,0 +1,104 @@
+{
+  "categoriaId": "forro",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Não editar à mão — reexecute o script após atualizar o CSV.",
+  "estilos": [
+    {
+      "id": "est_forro_001",
+      "categoriaId": "forro",
+      "subcategoriaId": "forro__atualizados",
+      "nome": "Atualizados",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1,
+      "previewUrls": [
+        "previews/Atualizados/01.mp3"
+      ]
+    },
+    {
+      "id": "est_forro_002",
+      "categoriaId": "forro",
+      "subcategoriaId": "forro__antigas",
+      "nome": "Antigas",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 2,
+      "previewUrls": [
+        "previews/Antigas/01.mp3",
+        "previews/Antigas/02.mp3"
+      ]
+    },
+    {
+      "id": "est_forro_003",
+      "categoriaId": "forro",
+      "subcategoriaId": "forro__classicos-de-sao-joao",
+      "nome": "Clássicos de São João",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 3
+    },
+    {
+      "id": "est_forro_004",
+      "categoriaId": "forro",
+      "subcategoriaId": "forro__vaquejada",
+      "nome": "Vaquejada",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 4
+    },
+    {
+      "id": "est_forro_005",
+      "categoriaId": "forro",
+      "subcategoriaId": "forro__forro-pe-de-serra",
+      "nome": "Forró Pé de Serra",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 5
+    },
+    {
+      "id": "est_forro_006",
+      "categoriaId": "forro",
+      "subcategoriaId": "forro__forro-romantico",
+      "nome": "Forró Romântico",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 6
+    },
+    {
+      "id": "est_forro_007",
+      "categoriaId": "forro",
+      "subcategoriaId": "forro__forro-universitario",
+      "nome": "Forró Universitário",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 7
+    }
+  ]
+}

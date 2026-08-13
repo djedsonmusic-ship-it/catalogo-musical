@@ -1,0 +1,4 @@
+{
+  "aviso": "IDs de estilos que aparecem em 'Em Destaque' na Home, na ordem desejada. Use o campo 'id' de app/dados/estilos/<categoria>.json. Se ficar vazio ou algum id não existir, a Home volta a mostrar os 4 primeiros estilos automaticamente.",
+  "destaquesHome": []
+}

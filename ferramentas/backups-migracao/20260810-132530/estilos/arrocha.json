@@ -1,0 +1,45 @@
+{
+  "categoriaId": "arrocha",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Não editar à mão — reexecute o script após atualizar o CSV.",
+  "estilos": [
+    {
+      "id": "est_arrocha_001",
+      "categoriaId": "arrocha",
+      "subcategoriaId": "arrocha__arrocha-atualizado",
+      "nome": "Arrocha atualizado",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1
+    },
+    {
+      "id": "est_arrocha_002",
+      "categoriaId": "arrocha",
+      "subcategoriaId": "arrocha__arrocha-das-antigas",
+      "nome": "Arrocha das Antigas",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 2
+    },
+    {
+      "id": "est_arrocha_003",
+      "categoriaId": "arrocha",
+      "subcategoriaId": "arrocha__arrocha-remix",
+      "nome": "Arrocha Remix",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 3
+    }
+  ]
+}

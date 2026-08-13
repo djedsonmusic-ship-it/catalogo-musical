@@ -1,0 +1,108 @@
+{
+  "categoriaId": "brega",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Enriquecimentos são preservados entre execuções — não editar à mão.",
+  "estilos": [
+    {
+      "id": "est_brega_001",
+      "categoriaId": "brega",
+      "subcategoriaId": "brega__brega-atual",
+      "nome": "Brega atual",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1,
+      "previewUrls": [
+        "previews/Brega/Brega atual/musica02.mp3",
+        "previews/Brega/Brega atual/musica03.mp3"
+      ]
+    },
+    {
+      "id": "est_brega_002",
+      "categoriaId": "brega",
+      "subcategoriaId": "brega__tecnobrega",
+      "nome": "Tecnobrega",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 2,
+      "previewUrls": [
+        "previews/Brega/Tecnobrega/musica01.mp3",
+        "previews/Brega/Tecnobrega/musica02.mp3",
+        "previews/Brega/Tecnobrega/musica03.mp3"
+      ]
+    },
+    {
+      "id": "est_brega_003",
+      "categoriaId": "brega",
+      "subcategoriaId": "brega__brega-funk",
+      "nome": "Brega Funk",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 3
+    },
+    {
+      "id": "est_brega_004",
+      "categoriaId": "brega",
+      "subcategoriaId": "brega__brega-paraense",
+      "nome": "Brega Paraense",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 4,
+      "previewUrls": [
+        "previews/Brega/Brega Paraense/musica01.mp3",
+        "previews/Brega/Brega Paraense/musica02.mp3",
+        "previews/Brega/Brega Paraense/musica03.mp3"
+      ]
+    },
+    {
+      "id": "est_brega_005",
+      "categoriaId": "brega",
+      "subcategoriaId": "brega__brega-pernambucano",
+      "nome": "Brega Pernambucano",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 5,
+      "previewUrls": [
+        "previews/Brega/Brega Pernambucano/musica01.mp3",
+        "previews/Brega/Brega Pernambucano/musica02.mp3",
+        "previews/Brega/Brega Pernambucano/musica03.mp3"
+      ]
+    },
+    {
+      "id": "est_brega_006",
+      "categoriaId": "brega",
+      "subcategoriaId": "brega__brega-antigo",
+      "nome": "Brega Antigo",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 6,
+      "previewUrls": [
+        "previews/Brega/Brega Antigo/musica01.mp3",
+        "previews/Brega/Brega Antigo/musica02.mp3",
+        "previews/Brega/Brega Antigo/musica03.mp3"
+      ]
+    }
+  ]
+}

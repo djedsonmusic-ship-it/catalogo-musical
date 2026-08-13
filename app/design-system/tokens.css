@@ -1,0 +1,128 @@
+/*
+  DESIGN SYSTEM — TOKENS
+  Sprint 16 (tema escuro vibrante): a pedido explícito do proprietário,
+  o tema mudou de claro/minimalista para escuro com acentos vibrantes
+  em gradiente (ciano/roxo/magenta), inspirado numa referência visual
+  de dashboard (mantendo, porém, os componentes de catálogo — cards,
+  busca, seleção — em vez de widgets de analytics, que não se aplicam
+  a este produto).
+*/
+
+:root {
+  /* Cor — superfícies (tema escuro) */
+  --color-bg: #120E24;
+  --color-bg-elevated: #1C1638;
+  --color-bg-sunken: #241D45;
+  --color-bg-overlay: rgba(6, 4, 15, 0.72);
+
+  /* Cor — texto */
+  --color-ink: #F5F3FF;
+  --color-ink-soft: #B7B1DA;
+  --color-ink-faint: #7C76A3;
+  --color-ink-on-accent: #FFFFFF;
+
+  /* Cor — bordas (linhas claras translúcidas sobre fundo escuro) */
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-border-strong: rgba(255, 255, 255, 0.16);
+  --color-border-on-dark: rgba(255, 255, 255, 0.12);
+
+  /* Cor — acento principal (roxo vibrante) */
+  --color-accent: #8B5CF6;
+  --color-accent-hover: #9D71FA;
+  --color-accent-active: #7C3AED;
+  --color-accent-soft: rgba(139, 92, 246, 0.18);
+  --color-accent-ring: rgba(139, 92, 246, 0.5);
+
+  /* Cor — acentos vibrantes adicionais (ciano/magenta), para gradientes e detalhes */
+  --color-cyan: #22D3EE;
+  --color-magenta: #EC4899;
+  --gradient-vivido: linear-gradient(135deg, var(--color-cyan) 0%, var(--color-accent) 55%, var(--color-magenta) 100%);
+
+  /* Cor — valor/investimento (reservado, uso pontual) */
+  --color-amber: #FBBF24;
+  --color-amber-soft: rgba(251, 191, 36, 0.16);
+
+  --color-success: #34D399;
+  --color-success-soft: rgba(52, 211, 153, 0.16);
+  --color-danger: #F87171;
+  --color-danger-soft: rgba(248, 113, 113, 0.16);
+
+  /* Superfície de destaque "sempre escura" — usada em elementos de
+     chrome que precisam de contraste alto independente do tema
+     (ex.: base de tooltip/skip-link) */
+  --color-chrome-forte: #0A0716;
+
+  /* Tipografia — fontes mais "vistosas" a pedido do proprietário:
+     Sora ganha mais peso nos títulos e os tamanhos base subiram um
+     pouco em relação à versão anterior. */
+  --font-display: "Sora", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Inter", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", "SFMono-Regular", Menlo, monospace;
+
+  --text-xs: 0.8125rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-md: 1.125rem;
+  --text-lg: 1.5rem;
+  --text-xl: 1.9rem;
+  --text-2xl: 2.5rem;
+  --text-3xl: 3.4rem;
+
+  --leading-tight: 1.1;
+  --leading-snug: 1.35;
+  --leading-normal: 1.6;
+
+  --tracking-tight: -0.022em;
+  --tracking-normal: 0;
+  --tracking-wide: 0.08em;
+
+  /* Espaçamento (escala 4px) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+
+  /* Forma — radius contido, sem excesso de arredondamento */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-full: 999px;
+
+  /* Elevação — em tema escuro, sombra pura fica quase invisível;
+     usamos sombra escura + um leve brilho de borda para dar profundidade */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.25);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.03);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.45), 0 0 0 1px rgba(255, 255, 255, 0.04);
+  --shadow-lg: 0 24px 56px rgba(0, 0, 0, 0.55), 0 0 0 1px rgba(255, 255, 255, 0.05);
+  --shadow-focus: 0 0 0 4px var(--color-accent-ring);
+  --inset-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.10);
+
+  /* Movimento */
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration-fast: 120ms;
+  --duration-base: 180ms;
+
+  /* Toque mínimo (RNF-02) */
+  --touch-min: 44px;
+
+  /* Altura de tela cheia com fallback (RNF-03) */
+  --viewport-height: 100vh;
+}
+
+@supports (height: 100dvh) {
+  :root {
+    --viewport-height: 100dvh;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}

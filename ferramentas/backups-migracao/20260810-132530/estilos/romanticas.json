@@ -1,0 +1,32 @@
+{
+  "categoriaId": "romanticas",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Não editar à mão — reexecute o script após atualizar o CSV.",
+  "estilos": [
+    {
+      "id": "est_romanticas_001",
+      "categoriaId": "romanticas",
+      "subcategoriaId": "romanticas__romanticas-de-filmes",
+      "nome": "Românticas de Filmes",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1
+    },
+    {
+      "id": "est_romanticas_002",
+      "categoriaId": "romanticas",
+      "subcategoriaId": "romanticas__love-songs",
+      "nome": "Love Songs",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 2
+    }
+  ]
+}

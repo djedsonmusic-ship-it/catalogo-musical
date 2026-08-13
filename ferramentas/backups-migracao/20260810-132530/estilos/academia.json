@@ -1,0 +1,58 @@
+{
+  "categoriaId": "academia",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Não editar à mão — reexecute o script após atualizar o CSV.",
+  "estilos": [
+    {
+      "id": "est_academia_001",
+      "categoriaId": "academia",
+      "subcategoriaId": "academia__musicas-para-treinar",
+      "nome": "Músicas para treinar",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1
+    },
+    {
+      "id": "est_academia_002",
+      "categoriaId": "academia",
+      "subcategoriaId": "academia__crossfit",
+      "nome": "Crossfit",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 2
+    },
+    {
+      "id": "est_academia_003",
+      "categoriaId": "academia",
+      "subcategoriaId": "academia__musicas-treino-forte",
+      "nome": "Músicas Treino Forte",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 3
+    },
+    {
+      "id": "est_academia_004",
+      "categoriaId": "academia",
+      "subcategoriaId": "academia__yoga-meditacao",
+      "nome": "Yoga & Meditação",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 4
+    }
+  ]
+}

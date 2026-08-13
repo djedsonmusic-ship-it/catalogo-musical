@@ -1,0 +1,32 @@
+{
+  "categoriaId": "cumbia",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Não editar à mão — reexecute o script após atualizar o CSV.",
+  "estilos": [
+    {
+      "id": "est_cumbia_001",
+      "categoriaId": "cumbia",
+      "subcategoriaId": "cumbia__cumbias-argentinas",
+      "nome": "Cumbias Argentinas",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1
+    },
+    {
+      "id": "est_cumbia_002",
+      "categoriaId": "cumbia",
+      "subcategoriaId": "cumbia__cumbias-colombianas",
+      "nome": "Cumbias Colombianas",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 2
+    }
+  ]
+}

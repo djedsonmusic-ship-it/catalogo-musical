@@ -1,0 +1,19 @@
+{
+  "categoriaId": "jovem-guarda",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Não editar à mão — reexecute o script após atualizar o CSV.",
+  "estilos": [
+    {
+      "id": "est_jovem-guarda_001",
+      "categoriaId": "jovem-guarda",
+      "subcategoriaId": "jovem-guarda__jovem-guarda-anos-60-e-70",
+      "nome": "Jovem guarda anos 60 e 70",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1
+    }
+  ]
+}

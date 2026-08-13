@@ -1,0 +1,71 @@
+{
+  "categoriaId": "piseiro",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Não editar à mão — reexecute o script após atualizar o CSV.",
+  "estilos": [
+    {
+      "id": "est_piseiro_001",
+      "categoriaId": "piseiro",
+      "subcategoriaId": "piseiro__piseiro-atualizadas-2026",
+      "nome": "Piseiro atualizadas 2026",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1
+    },
+    {
+      "id": "est_piseiro_002",
+      "categoriaId": "piseiro",
+      "subcategoriaId": "piseiro__piseiro-antigas",
+      "nome": "Piseiro antigas",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 2
+    },
+    {
+      "id": "est_piseiro_003",
+      "categoriaId": "piseiro",
+      "subcategoriaId": "piseiro__forro-com-piseiro",
+      "nome": "Forro com Piseiro",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 3
+    },
+    {
+      "id": "est_piseiro_004",
+      "categoriaId": "piseiro",
+      "subcategoriaId": "piseiro__piseiro-romantico",
+      "nome": "Piseiro Romântico",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 4
+    },
+    {
+      "id": "est_piseiro_005",
+      "categoriaId": "piseiro",
+      "subcategoriaId": "piseiro__piseiro-versao-pagode",
+      "nome": "Piseiro versão Pagode",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 5
+    }
+  ]
+}

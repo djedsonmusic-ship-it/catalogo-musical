@@ -1,0 +1,19 @@
+{
+  "categoriaId": "moda-de-viola",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Não editar à mão — reexecute o script após atualizar o CSV.",
+  "estilos": [
+    {
+      "id": "est_moda-de-viola_001",
+      "categoriaId": "moda-de-viola",
+      "subcategoriaId": "moda-de-viola__moda-de-viola-raiz",
+      "nome": "Moda de viola Raiz",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1
+    }
+  ]
+}

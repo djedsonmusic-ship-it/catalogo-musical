@@ -1,0 +1,42 @@
+{
+  "categoriaId": "rap-hip-hop",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Enriquecimentos são preservados entre execuções — não editar à mão.",
+  "estilos": [
+    {
+      "id": "est_rap-hip-hop_001",
+      "categoriaId": "rap-hip-hop",
+      "subcategoriaId": "rap-hip-hop__anos-80-90",
+      "nome": "Anos 80 - 90",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1,
+      "previewUrls": [
+        "previews/Rap - Hip Hop/Anos 80 - 90/musica01.mp3",
+        "previews/Rap - Hip Hop/Anos 80 - 90/musica02.mp3",
+        "previews/Rap - Hip Hop/Anos 80 - 90/musica03.mp3"
+      ]
+    },
+    {
+      "id": "est_rap-hip-hop_002",
+      "categoriaId": "rap-hip-hop",
+      "subcategoriaId": "rap-hip-hop__atual",
+      "nome": "Atual",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 2,
+      "previewUrls": [
+        "previews/Forró/Atual/musica01.mp3",
+        "previews/Forró/Atual/musica02.mp3",
+        "previews/Forró/Atual/musica03.mp3"
+      ]
+    }
+  ]
+}

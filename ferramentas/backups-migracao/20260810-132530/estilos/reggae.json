@@ -1,0 +1,97 @@
+{
+  "categoriaId": "reggae",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Não editar à mão — reexecute o script após atualizar o CSV.",
+  "estilos": [
+    {
+      "id": "est_reggae_001",
+      "categoriaId": "reggae",
+      "subcategoriaId": "reggae__roots-vinil-disco-bolachao",
+      "nome": "Roots Vinil (Disco Bolachão)",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1
+    },
+    {
+      "id": "est_reggae_002",
+      "categoriaId": "reggae",
+      "subcategoriaId": "reggae__eletronico-maranhao",
+      "nome": "Eletrônico (Maranhão)",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 2
+    },
+    {
+      "id": "est_reggae_003",
+      "categoriaId": "reggae",
+      "subcategoriaId": "reggae__eletronico-caminhoneiro",
+      "nome": "Eletrônico (Caminhoneiro)",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 3
+    },
+    {
+      "id": "est_reggae_004",
+      "categoriaId": "reggae",
+      "subcategoriaId": "reggae__nacional",
+      "nome": "Nacional",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 4
+    },
+    {
+      "id": "est_reggae_005",
+      "categoriaId": "reggae",
+      "subcategoriaId": "reggae__reggaeton",
+      "nome": "Reggaeton",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 5
+    },
+    {
+      "id": "est_reggae_006",
+      "categoriaId": "reggae",
+      "subcategoriaId": "reggae__dub-instrumental",
+      "nome": "Dub (Instrumental)",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 6
+    },
+    {
+      "id": "est_reggae_007",
+      "categoriaId": "reggae",
+      "subcategoriaId": "reggae__dancehall",
+      "nome": "Dancehall",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 7
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "categoriaId": "piseiro",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Enriquecimentos são preservados entre execuções — não editar à mão.",
+  "estilos": [
+    {
+      "id": "est_piseiro_001",
+      "categoriaId": "piseiro",
+      "subcategoriaId": "piseiro__piseiro-atual",
+      "nome": "Piseiro atual",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1,
+      "previewUrls": [
+        "previews/Piseiro/Piseiro atual/musica01.mp3",
+        "previews/Piseiro/Piseiro atual/musica02.mp3",
+        "previews/Piseiro/Piseiro atual/musica03.mp3"
+      ]
+    },
+    {
+      "id": "est_piseiro_002",
+      "categoriaId": "piseiro",
+      "subcategoriaId": "piseiro__piseiro-antigo",
+      "nome": "Piseiro antigo",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 2,
+      "previewUrls": [
+        "previews/Piseiro/Piseiro antigo/musica01.mp3",
+        "previews/Piseiro/Piseiro antigo/musica02.mp3",
+        "previews/Piseiro/Piseiro antigo/musica03.mp3"
+      ]
+    }
+  ]
+}

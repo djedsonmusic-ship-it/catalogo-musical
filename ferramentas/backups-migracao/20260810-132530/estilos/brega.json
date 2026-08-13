@@ -1,0 +1,84 @@
+{
+  "categoriaId": "brega",
+  "aviso": "Gerado automaticamente por ferramentas/migrar-csv-para-catalogo.py. Não editar à mão — reexecute o script após atualizar o CSV.",
+  "estilos": [
+    {
+      "id": "est_brega_001",
+      "categoriaId": "brega",
+      "subcategoriaId": "brega__brega-atualizado",
+      "nome": "Brega atualizado",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 1
+    },
+    {
+      "id": "est_brega_002",
+      "categoriaId": "brega",
+      "subcategoriaId": "brega__tecnobrega",
+      "nome": "Tecnobrega",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 2
+    },
+    {
+      "id": "est_brega_003",
+      "categoriaId": "brega",
+      "subcategoriaId": "brega__brega-funk",
+      "nome": "Brega Funk",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 3
+    },
+    {
+      "id": "est_brega_004",
+      "categoriaId": "brega",
+      "subcategoriaId": "brega__brega-paraense",
+      "nome": "Brega Paraense",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 4
+    },
+    {
+      "id": "est_brega_005",
+      "categoriaId": "brega",
+      "subcategoriaId": "brega__brega-pernambucano",
+      "nome": "Brega Pernambucano",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 5
+    },
+    {
+      "id": "est_brega_006",
+      "categoriaId": "brega",
+      "subcategoriaId": "brega__brega-das-antigas",
+      "nome": "Brega das Antigas",
+      "descricaoCurta": "",
+      "quantidadeMusicasEstimada": 0,
+      "espacoEstimadoMb": 0,
+      "valorEstimadoCentavos": 0,
+      "tags": [],
+      "status": "ativo",
+      "ordemExibicao": 6
+    }
+  ]
+}
