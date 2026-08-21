@@ -1,7 +1,8 @@
 import { carregarCatalogo, listarEstilos, listarCategorias } from './core/catalogService.js';
 import { carregarConfiguracoes } from './core/configService.js';
 import { carregarContato } from './core/contatoService.js';
-import { selectionState } from './core/selectionState.js';
+import { carregarDiscografias } from './core/discografiaService.js';
+import { selectionState, discografiaSelectionState, solicitacoesPersonalizadasState } from './core/selectionState.js';
 import { montarToast } from './core/feedback.js';
 import { previewService } from './core/previewService.js';
 import { iconSvg, waveformSvg } from './design-system/icons.js';
@@ -30,7 +31,9 @@ let estilos = [];
 let categorias = [];
 let configuracoes = { destaquesHome: [] };
 let contato = { whatsapp: '', email: '', telefone: '' };
+let discografias = [];
 let viewAtual = 'home';
+let atualizarBarraSelecao = () => {};
 
 async function iniciar() {
   montarToast(elToast);
@@ -41,8 +44,9 @@ async function iniciar() {
     categorias = listarCategorias(catalogo);
     configuracoes = await carregarConfiguracoes();
     contato = await carregarContato();
+    discografias = await carregarDiscografias();
     montarHeader();
-    montarBarraSelecao();
+    atualizarBarraSelecao = montarBarraSelecao();
     if (estilos.length === 0) {
       renderCatalogoVazio();
     } else {
@@ -102,24 +106,63 @@ function montarBarraSelecao() {
   let quantidadeAnterior = null;
 
   function atualizar() {
-    const quantidade = selectionState.quantidade();
-    elBarraSelecao.classList.toggle('is-visible', quantidade > 0 && viewAtual !== 'finalizar');
-    if (quantidade === 0) { elBarraSelecao.innerHTML = ''; quantidadeAnterior = 0; return; }
+    // Sprint 21 (ajuste A) + Sprint 22 (ajuste 4): a barra persistente
+    // conta estilos, discografias completas E solicitações de
+    // discografia personalizada — sem isso, um cliente que só pediu
+    // uma discografia sob encomenda (sem selecionar mais nada) não
+    // teria como chegar em "Ver seleção"/Finalizar para revisar/enviar
+    // o pedido com essa solicitação.
+    const quantidade = selectionState.quantidade() + discografiaSelectionState.quantidade() + solicitacoesPersonalizadasState.listar().length;
+
+    // Sprint 22 (ajuste 7): em "Explorar estilos" a barra aparece
+    // desde a entrada na tela, mesmo sem nada selecionado, com
+    // "Voltar ao início" — antes só surgia depois da 1ª seleção,
+    // obrigando o cliente a usar o botão pequeno do cabeçalho. Nas
+    // demais telas (Home, Seleção) o comportamento antigo continua:
+    // só aparece havendo itens selecionados, e nunca em Finalizar.
+    const deveAparecer = viewAtual !== 'finalizar' && (quantidade > 0 || viewAtual === 'explorar');
+    elBarraSelecao.classList.toggle('is-visible', deveAparecer);
+    // Sprint 22 (ajuste 7): reserva espaço no fim da página quando a
+    // barra fixa está visível — sem isso, em telas com pouco conteúdo
+    // (ex.: Resumo do pedido com só 1 item) a barra ficava sobreposta
+    // ao botão "Finalizar pedido", impedindo o clique.
+    document.body.classList.toggle('tem-barra-selecao', deveAparecer);
+    if (!deveAparecer) { elBarraSelecao.innerHTML = ''; quantidadeAnterior = quantidade === 0 ? 0 : quantidadeAnterior; return; }
 
     const mudou = quantidadeAnterior !== null && quantidadeAnterior !== quantidade;
 
-    elBarraSelecao.innerHTML = `
-      <div class="selection-bar__stats">
-        <span><b class="${mudou ? 'pulso-contagem' : ''}">${quantidade}</b> estilo${quantidade === 1 ? '' : 's'} selecionado${quantidade === 1 ? '' : 's'}</span>
-      </div>
-      <button class="btn btn-accent btn-sm" data-ver-selecao>Ver seleção</button>
-    `;
-    const botao = elBarraSelecao.querySelector('[data-ver-selecao]');
-    if (botao) botao.addEventListener('click', () => irPara('selecao'));
+    const botaoVoltar = `<button class="btn btn-ghost btn-sm" data-voltar-inicio>Voltar ao início</button>`;
+
+    if (quantidade === 0) {
+      // Explorar estilos, ainda sem nenhuma seleção.
+      elBarraSelecao.innerHTML = `
+        <div class="selection-bar__stats">
+          <span>Nenhum item selecionado ainda</span>
+        </div>
+        ${botaoVoltar}
+      `;
+    } else {
+      elBarraSelecao.innerHTML = `
+        <div class="selection-bar__stats">
+          <span><b class="${mudou ? 'pulso-contagem' : ''}">${quantidade}</b> ${quantidade === 1 ? 'item selecionado' : 'itens selecionados'}</span>
+        </div>
+        <div class="selection-bar__acoes">
+          <button class="btn btn-accent btn-sm" data-ver-selecao>Ver seleção</button>
+          ${botaoVoltar}
+        </div>
+      `;
+    }
+    const botaoVer = elBarraSelecao.querySelector('[data-ver-selecao]');
+    if (botaoVer) botaoVer.addEventListener('click', () => irPara('selecao'));
+    const botaoInicio = elBarraSelecao.querySelector('[data-voltar-inicio]');
+    if (botaoInicio) botaoInicio.addEventListener('click', () => irPara('home'));
     quantidadeAnterior = quantidade;
   }
   selectionState.aoMudar(atualizar);
+  discografiaSelectionState.aoMudar(atualizar);
+  solicitacoesPersonalizadasState.aoMudar(atualizar);
   atualizar();
+  return atualizar;
 }
 
 function irPara(view, parametros = {}) {
@@ -133,7 +176,7 @@ function irPara(view, parametros = {}) {
   let elView;
   if (view === 'home') {
     elView = renderHome({
-      catalogo, estilos, configuracoes, contato,
+      catalogo, estilos, configuracoes, contato, discografias,
       irParaExplorar: (idEstilo) => irPara('explorar', { focoInicialId: idEstilo }),
       irParaExplorarComBusca: () => irPara('explorar', { autoFocoBusca: true })
     });
@@ -146,14 +189,14 @@ function irPara(view, parametros = {}) {
     });
   } else if (view === 'selecao') {
     elView = renderSelecao({
-      estilos,
+      estilos, discografias,
       irParaExplorar: () => irPara('explorar'),
       irParaFinalizar: () => irPara('finalizar')
     });
   } else if (view === 'finalizar') {
     elView = renderFinalizar({
-      estilos,
-      irParaHome: () => { selectionState.limparTudo(); irPara('home'); }
+      estilos, discografias,
+      irParaHome: () => { selectionState.limparTudo(); discografiaSelectionState.limparTudo(); solicitacoesPersonalizadasState.limparTudo(); irPara('home'); }
     });
   }
 
@@ -163,8 +206,7 @@ function irPara(view, parametros = {}) {
   }
   atualizarItemAtivoHeader();
   window.scrollTo({ top: 0, behavior: 'instant' in window ? 'instant' : 'auto' });
-  const quantidadeAtual = selectionState.quantidade();
-  elBarraSelecao.classList.toggle('is-visible', quantidadeAtual > 0 && view !== 'finalizar');
+  atualizarBarraSelecao();
 }
 
 function renderCatalogoVazio() {

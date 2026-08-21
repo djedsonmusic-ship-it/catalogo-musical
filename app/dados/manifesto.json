@@ -102,21 +102,12 @@
       "status": "ativo"
     },
     {
-      "id": "discografia",
-      "nome": "Discografia",
-      "slug": "discografia",
-      "icone": "padrao",
-      "cor": "#4F46E5",
-      "ordemExibicao": 12,
-      "status": "ativo"
-    },
-    {
       "id": "eletronicas",
       "nome": "Eletrônicas",
       "slug": "eletronicas",
       "icone": "onda",
-      "cor": "#5B5FEF",
-      "ordemExibicao": 13,
+      "cor": "#4F46E5",
+      "ordemExibicao": 12,
       "status": "ativo"
     },
     {
@@ -124,8 +115,8 @@
       "nome": "Flash Back",
       "slug": "flash-back",
       "icone": "padrao",
-      "cor": "#1FAA59",
-      "ordemExibicao": 14,
+      "cor": "#5B5FEF",
+      "ordemExibicao": 13,
       "status": "ativo"
     },
     {
@@ -133,8 +124,8 @@
       "nome": "Forró",
       "slug": "forro",
       "icone": "pandeiro",
-      "cor": "#F5A623",
-      "ordemExibicao": 15,
+      "cor": "#1FAA59",
+      "ordemExibicao": 14,
       "status": "ativo"
     },
     {
@@ -142,8 +133,8 @@
       "nome": "Freestyle",
       "slug": "freestyle",
       "icone": "onda",
-      "cor": "#E85D75",
-      "ordemExibicao": 16,
+      "cor": "#F5A623",
+      "ordemExibicao": 15,
       "status": "ativo"
     },
     {
@@ -151,8 +142,8 @@
       "nome": "Funk",
       "slug": "funk",
       "icone": "microfone",
-      "cor": "#D9822B",
-      "ordemExibicao": 17,
+      "cor": "#E85D75",
+      "ordemExibicao": 16,
       "status": "ativo"
     },
     {
@@ -160,8 +151,8 @@
       "nome": "Gospel",
       "slug": "gospel",
       "icone": "globo",
-      "cor": "#3D8BFF",
-      "ordemExibicao": 18,
+      "cor": "#D9822B",
+      "ordemExibicao": 17,
       "status": "ativo"
     },
     {
@@ -169,8 +160,8 @@
       "nome": "Infantil",
       "slug": "infantil",
       "icone": "globo",
-      "cor": "#8B5CF6",
-      "ordemExibicao": 19,
+      "cor": "#3D8BFF",
+      "ordemExibicao": 18,
       "status": "ativo"
     },
     {
@@ -178,8 +169,8 @@
       "nome": "Internacionais",
       "slug": "internacionais",
       "icone": "padrao",
-      "cor": "#0EA5A5",
-      "ordemExibicao": 20,
+      "cor": "#8B5CF6",
+      "ordemExibicao": 19,
       "status": "ativo"
     },
     {
@@ -187,8 +178,8 @@
       "nome": "Jazz",
       "slug": "jazz",
       "icone": "violao",
-      "cor": "#C7373F",
-      "ordemExibicao": 21,
+      "cor": "#0EA5A5",
+      "ordemExibicao": 20,
       "status": "ativo"
     },
     {
@@ -196,8 +187,8 @@
       "nome": "Jovem Guarda",
       "slug": "jovem-guarda",
       "icone": "guitarra",
-      "cor": "#2E9E6B",
-      "ordemExibicao": 22,
+      "cor": "#C7373F",
+      "ordemExibicao": 21,
       "status": "ativo"
     },
     {
@@ -205,8 +196,8 @@
       "nome": "Miami Bass",
       "slug": "miami-bass",
       "icone": "onda",
-      "cor": "#B7791F",
-      "ordemExibicao": 23,
+      "cor": "#2E9E6B",
+      "ordemExibicao": 22,
       "status": "ativo"
     },
     {
@@ -214,8 +205,8 @@
       "nome": "Moda de Viola",
       "slug": "moda-de-viola",
       "icone": "violao",
-      "cor": "#4F46E5",
-      "ordemExibicao": 24,
+      "cor": "#B7791F",
+      "ordemExibicao": 23,
       "status": "ativo"
     },
     {
@@ -223,8 +214,8 @@
       "nome": "MPB",
       "slug": "mpb",
       "icone": "violao",
-      "cor": "#5B5FEF",
-      "ordemExibicao": 25,
+      "cor": "#4F46E5",
+      "ordemExibicao": 24,
       "status": "ativo"
     },
     {
@@ -232,8 +223,8 @@
       "nome": "Pagode",
       "slug": "pagode",
       "icone": "microfone",
-      "cor": "#1FAA59",
-      "ordemExibicao": 26,
+      "cor": "#5B5FEF",
+      "ordemExibicao": 25,
       "status": "ativo"
     },
     {
@@ -241,8 +232,8 @@
       "nome": "Piseiro",
       "slug": "piseiro",
       "icone": "microfone",
-      "cor": "#F5A623",
-      "ordemExibicao": 27,
+      "cor": "#1FAA59",
+      "ordemExibicao": 26,
       "status": "ativo"
     },
     {
@@ -250,8 +241,8 @@
       "nome": "Pop",
       "slug": "pop",
       "icone": "padrao",
-      "cor": "#E85D75",
-      "ordemExibicao": 28,
+      "cor": "#F5A623",
+      "ordemExibicao": 27,
       "status": "ativo"
     },
     {
@@ -259,8 +250,8 @@
       "nome": "Rock",
       "slug": "rock",
       "icone": "guitarra",
-      "cor": "#D9822B",
-      "ordemExibicao": 29,
+      "cor": "#E85D75",
+      "ordemExibicao": 28,
       "status": "ativo"
     },
     {
@@ -268,8 +259,8 @@
       "nome": "Rap - Hip Hop",
       "slug": "rap-hip-hop",
       "icone": "microfone",
-      "cor": "#3D8BFF",
-      "ordemExibicao": 30,
+      "cor": "#D9822B",
+      "ordemExibicao": 29,
       "status": "ativo"
     },
     {
@@ -277,8 +268,8 @@
       "nome": "Reggae",
       "slug": "reggae",
       "icone": "globo",
-      "cor": "#8B5CF6",
-      "ordemExibicao": 31,
+      "cor": "#3D8BFF",
+      "ordemExibicao": 30,
       "status": "ativo"
     },
     {
@@ -286,8 +277,8 @@
       "nome": "Samba",
       "slug": "samba",
       "icone": "microfone",
-      "cor": "#0EA5A5",
-      "ordemExibicao": 32,
+      "cor": "#8B5CF6",
+      "ordemExibicao": 31,
       "status": "ativo"
     },
     {
@@ -295,8 +286,8 @@
       "nome": "Serestas",
       "slug": "serestas",
       "icone": "violao",
-      "cor": "#C7373F",
-      "ordemExibicao": 33,
+      "cor": "#0EA5A5",
+      "ordemExibicao": 32,
       "status": "ativo"
     },
     {
@@ -304,8 +295,8 @@
       "nome": "Sertanejo",
       "slug": "sertanejo",
       "icone": "microfone",
-      "cor": "#2E9E6B",
-      "ordemExibicao": 34,
+      "cor": "#C7373F",
+      "ordemExibicao": 33,
       "status": "ativo"
     },
     {
@@ -313,8 +304,8 @@
       "nome": "Temas de Filmes",
       "slug": "temas-de-filmes",
       "icone": "padrao",
-      "cor": "#B7791F",
-      "ordemExibicao": 35,
+      "cor": "#2E9E6B",
+      "ordemExibicao": 34,
       "status": "ativo"
     },
     {
@@ -322,8 +313,8 @@
       "nome": "Zumba",
       "slug": "zumba",
       "icone": "pandeiro",
-      "cor": "#4F46E5",
-      "ordemExibicao": 36,
+      "cor": "#B7791F",
+      "ordemExibicao": 35,
       "status": "ativo"
     }
   ],
@@ -598,14 +589,6 @@
       "nome": "Valsa",
       "slug": "valsa",
       "ordemExibicao": 11,
-      "status": "ativo"
-    },
-    {
-      "id": "discografia__diversas",
-      "categoriaId": "discografia",
-      "nome": "Diversas",
-      "slug": "diversas",
-      "ordemExibicao": 1,
       "status": "ativo"
     },
     {

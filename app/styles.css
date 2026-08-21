@@ -111,8 +111,25 @@ body::before {
   opacity: 0.65;
 }
 
-/* Agrupamento por categoria quando nenhum filtro está ativo */
-.category-group + .category-group { margin-top: var(--space-7); }
+/* Agrupamento por categoria quando nenhum filtro está ativo.
+   Sprint 21 (ajuste E): #resultado-busca vira um flex-wrap e cada
+   .category-group passa a ocupar só a largura do seu próprio
+   conteúdo (flex: 0 1 auto), em vez de sempre 100% da linha — assim
+   categorias com poucos cards (ex.: Academia, Arrocha) dividem a
+   mesma linha em vez de deixar um vão vazio ao lado, e categorias
+   grandes (ex.: Brega) continuam ocupando a linha inteira sozinhas.
+   Nada mudou na busca/filtro nem na grade .grid-styles em si. */
+#resultado-busca {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--space-7) var(--space-6);
+}
+#resultado-busca > .grid-styles { flex: 1 1 100%; }
+.category-group {
+  flex: 0 1 auto;
+  min-width: min(280px, 100%);
+}
 .category-group__title {
   font-family: var(--font-display);
   font-size: var(--text-md);
@@ -271,6 +288,50 @@ mark {
   gap: var(--space-3);
 }
 .checkout-contato__botoes .btn { text-decoration: none; }
+
+/* Sprint 21 (ajuste F) + Sprint 23 (ajuste 7/8): status claro do envio
+ * por e-mail (mailto não dá nenhum retorno nativo, ao contrário do
+ * WhatsApp). Estrutura em bloco (não mais uma única linha flex) —
+ * misturar um endereço de e-mail (sem espaços, portanto não quebra)
+ * dentro de uma linha flex forçava o texto ao redor a espremer e
+ * quebrar palavra por palavra. Cabeçalho (ícone + título) fica numa
+ * linha; o restante é texto normal, alinhado à esquerda, com o
+ * e-mail destacado em sua própria linha. */
+.checkout-envio-status {
+  margin-top: var(--space-4);
+  padding: var(--space-4);
+  border-radius: var(--radius-md);
+  font-size: var(--text-sm);
+  text-align: left;
+  border: 1px solid var(--color-border);
+  color: var(--color-ink);
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.checkout-envio-status__cabecalho {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-base);
+  margin-bottom: var(--space-2);
+}
+.checkout-envio-status__texto {
+  margin: var(--space-1) 0;
+  line-height: 1.5;
+}
+.checkout-envio-status__email {
+  display: inline-block;
+  max-width: 100%;
+  margin: var(--space-2) 0;
+  padding: var(--space-2) var(--space-3);
+  background: var(--color-surface-muted, rgba(0,0,0,0.04));
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  word-break: break-all;
+  overflow-wrap: break-word;
+}
+.checkout-envio-status[data-estado="sucesso"] { border-color: var(--color-success); background: var(--color-success-soft); }
+.checkout-envio-status[data-estado="erro"] { border-color: var(--color-danger); }
 
 /* ============ Sprint 14 — Entrega e resumo sem preço ============ */
 .entrega-opcoes {
@@ -557,3 +618,271 @@ mark {
   .hero__title { font-size: var(--text-2xl) !important; }
 }
 
+
+/* ============ Sprint 18/19 — Composição e refinamento da Home ============
+   Sprint 18: reestruturação visual por áreas de decisão (montar
+   pendrive / discografia / estilos / como receber), com foco em
+   densidade real no mobile (grids de 2 colunas em vez de blocos
+   empilhados em coluna única) e melhor aproveitamento de largura no
+   desktop. Reaproveita os tokens e componentes existentes (.card,
+   .style-card, .btn, .search-field) — nenhuma classe nova de botão/
+   cartão foi criada.
+   Sprint 19 (refinamento): mesma base de classes `.home-*`, ajustando
+   proporção, ritmo vertical e hierarquia — sem novos tokens, sem
+   novas seções, sem alterar nenhum seletor usado pelos listeners do
+   home.js. As seções "Conversão de Mídias" e "Fale comigo" ganham
+   tratamento mais discreto (título menor, padding reduzido) para não
+   competir com Discografias/Estilos, e as opções de "Como quer
+   receber" ganham uma barra de acento (reaproveitando as cores do
+   --gradient-vivido já existente) para se lerem como opções de
+   produto, não como texto solto. */
+
+.home-hero { padding-bottom: var(--space-5); }
+
+/* Sprint 20: hero em duas colunas — texto/CTA à esquerda, painel de
+   atalhos (Discografias / Estilos / Não encontrou) à direita, lado a
+   lado no desktop conforme a referência do MD (seção 4). Em telas
+   estreitas o painel cai para baixo do texto (ver media query). */
+.home-hero__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  gap: var(--space-6);
+  align-items: start;
+}
+.home-hero__content { min-width: 0; }
+.home-hero__delivery { margin-top: var(--space-5); }
+.home-hero__delivery-title {
+  color: var(--color-ink);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  margin-bottom: var(--space-3);
+}
+.home-hero__delivery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-3) var(--space-4);
+}
+.home-hero__delivery-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  color: var(--color-ink);
+  font-size: var(--text-xs);
+  /* Sprint 21 (ajuste C): eram <div>s decorativas; agora são botões
+     reais — resetados para manter a mesma aparência de antes. */
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: var(--radius-md);
+  padding: var(--space-2);
+  margin: calc(var(--space-2) * -1);
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
+  transition: border-color var(--duration-base) var(--ease-standard),
+              background-color var(--duration-base) var(--ease-standard);
+}
+.home-hero__delivery-item:hover { border-color: var(--color-border); }
+.home-hero__delivery-item.is-active {
+  border-color: var(--color-accent);
+  background: var(--color-accent-soft);
+}
+.home-hero__delivery-item--wide { grid-row: span 2; align-items: flex-start; }
+.home-hero__delivery-icon { font-size: var(--text-md); width: 20px; text-align: center; flex-shrink: 0; }
+.home-hero__delivery-text { display: flex; flex-direction: column; }
+.home-hero__delivery-text-title { font-weight: 700; }
+.home-hero__delivery-sub { color: var(--color-ink-faint); font-size: var(--text-xs); margin-top: 2px; }
+.home-hero__delivery-hint {
+  margin-top: var(--space-3);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  color: var(--color-accent);
+}
+.home-hero__atalhos {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+.home-atalho {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--space-3);
+  width: 100%;
+  padding: var(--space-3) var(--space-4);
+}
+.home-atalho:nth-child(1) { --card-accent: var(--color-cyan); }
+.home-atalho:nth-child(2) { --card-accent: var(--color-accent); }
+.home-atalho:nth-child(3) { --card-accent: var(--color-magenta); }
+
+.home-section { margin-top: var(--space-5); padding: var(--space-5); }
+
+.home-section__title { font-size: var(--text-lg); }
+.home-section__lead { margin-top: var(--space-2); color: var(--color-ink-soft); }
+.home-section__lead--tight { margin-bottom: var(--space-4); }
+
+/* .section-heading é compartilhado com Seleção e Finalizar e não tem
+   flex-wrap; nesta tela, o título "Destaques" ao lado do link "Ver
+   todos →" pode espremer em telas muito estreitas (~360px). Corrigido
+   apenas dentro do escopo da Home, sem alterar a regra compartilhada
+   — não afeta as outras telas. */
+.home-section .section-heading { flex-wrap: wrap; row-gap: var(--space-2); }
+
+/* Sprint 20: com Contatos agora logo após o Hero (seção 17 do MD),
+   a seção ganha o mesmo peso visual das demais — só a Conversão de
+   Mídias mantém o tratamento mais discreto, por ser complementar. */
+.home-service {
+  padding-top: var(--space-4);
+  padding-bottom: var(--space-4);
+}
+.home-service .home-section__title {
+  font-size: var(--text-md);
+}
+
+/* Discografias — cartões compactos, título + botão de ação lado a lado
+   sempre que a largura do cartão permitir (a decisão de virar coluna
+   fica só para telas realmente estreitas, na media query abaixo).
+   auto-fit (em vez de auto-fill) evita "buracos": com poucos itens,
+   o navegador não reserva colunas vazias — o mesmo problema que o
+   grid de Estilos já resolvia de outra forma (ver comentário sobre
+   .grid-styles em components.css). O max-width no item evita que um
+   único card estique a linha inteira quando há só 1 ou 2 registros. */
+.home-discografias__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+}
+.home-discografias__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-block: var(--space-3);
+  max-width: 420px;
+}
+/* Sprint 22 (ajuste 5): o card de discografia é uma linha compacta
+   (flex-row), diferente dos cards de estilo (flex-column, mais
+   altos) onde o selo "Selecionado" flutua livre no canto superior
+   sem nunca cruzar com nenhum botão. Aqui o selo "Adicionada" ficava
+   absoluto por cima do botão "Remover", já que os dois disputam o
+   mesmo canto. Tirando o selo do posicionamento absoluto só dentro
+   deste card, ele volta a ocupar sua própria linha, no mesmo padrão
+   visual (acima do conteúdo) usado pelos cards de estilo. */
+.home-discografias__item .style-card__badge-selected {
+  position: static;
+  order: -1;
+  flex-basis: 100%;
+  align-self: flex-start;
+  margin-bottom: var(--space-1);
+}
+
+.home-discografias__busca {
+  margin-top: var(--space-4);
+  max-width: 420px;
+}
+.home-discografias__sem-resultado,
+.home-discografias__preparando {
+  margin-top: var(--space-4);
+  color: var(--color-ink-soft);
+}
+
+.home-custom-request {
+  margin-top: var(--space-4);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--color-border);
+}
+.home-custom-request--inline {
+  margin-top: var(--space-3);
+  padding-top: var(--space-3);
+}
+.home-custom-request__confirmado {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  color: var(--color-accent-active);
+  font-size: var(--text-sm);
+  margin: var(--space-2) 0 var(--space-3);
+}
+.home-custom-request__title { font-size: var(--text-base); }
+.home-custom-request__lead { margin-top: var(--space-1); color: var(--color-ink-soft); }
+.home-custom-request__form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-3);
+  align-items: center;
+}
+.home-custom-request__field { flex: 1; min-width: 200px; }
+
+.home-highlights__grid { margin-top: 0; }
+
+.home-service__aviso { margin-top: var(--space-3); }
+
+.home-contato__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+}
+.home-contato__links .btn { text-decoration: none; }
+
+/* Desktop amplo (>=1024px) — o container já limita a 1080px, mas em
+   telas bem largas o espaço em volta pode parecer vazio; aumentamos
+   levemente os gaps internos das grades para a Home "respirar" sem
+   esticar os cards além de uma largura confortável de leitura. */
+@media (min-width: 1024px) {
+  .home-discografias__grid,
+  .home-highlights__grid.grid-styles {
+    gap: var(--space-4);
+  }
+}
+
+@media (max-width: 900px) {
+  .home-hero__grid { grid-template-columns: 1fr; }
+}
+
+/* Tablet (~768px) — ainda há espaço para 3 colunas em Discografias,
+   mas a coluna única do container fica confortável com 2 por linha
+   nos cards mais informativos; Estilos em destaque mantém o grid
+   flexível herdado de .grid-styles. */
+@media (max-width: 768px) {
+  .home-discografias__grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 640px) {
+  .home-hero { padding-bottom: var(--space-4); }
+  .home-hero .hero__lead { margin-top: var(--space-3); }
+  .home-hero__atalhos { margin-top: var(--space-4); gap: var(--space-2); }
+
+  .home-section { margin-top: var(--space-4); padding: var(--space-4); }
+  .home-section__title { font-size: var(--text-md); }
+  .home-service .home-section__title { font-size: var(--text-base); }
+
+  .home-discografias__grid { grid-template-columns: repeat(2, 1fr); gap: var(--space-2); }
+  .home-discografias__item {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--space-3);
+    gap: var(--space-2);
+  }
+  .home-discografias__item .btn { width: 100%; }
+
+  .home-custom-request { margin-top: var(--space-4); padding-top: var(--space-4); }
+  .home-custom-request__form { flex-direction: column; align-items: stretch; }
+  .home-custom-request__field { min-width: 0; }
+
+  .home-highlights__grid.grid-styles { gap: var(--space-2); }
+  .home-highlights__grid.grid-styles > .style-card { flex-basis: calc(50% - var(--space-1)); max-width: none; padding: var(--space-3); }
+}
+
+/* Smartphones estreitos (~360–430px) — reforça a densidade sem
+   comprimir a leitura: mantém 2 colunas (não força coluna única, que
+   pioraria o aproveitamento horizontal pedido no briefing), apenas
+   reduz padding interno dos cards mais um passo na escala existente. */
+@media (max-width: 400px) {
+  .home-section { padding: var(--space-3); }
+  .home-discografias__item,
+  .home-highlights__grid.grid-styles > .style-card { padding: var(--space-2) var(--space-3); }
+  .home-custom-request__title { font-size: var(--text-sm); }
+}

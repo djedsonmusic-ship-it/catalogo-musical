@@ -89,6 +89,20 @@ export function renderExplorar({ estilos, categorias, focoInicialId, autoFocoBus
     contadorResultado.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
+  /** Sprint 22 (ajuste 8): a rolagem acima só disparava com Enter, clique
+   * na lupa ou troca de chip — digitar direto no campo (o caso mais comum)
+   * não rolava nada, e os resultados ficavam escondidos abaixo do card de
+   * Conversão de Mídias até o usuário descobrir que precisava descer a
+   * página. Sem mexer no motor de busca/filtro, só garantimos que digitar
+   * também leve a área de resultados para perto do topo — e apenas quando
+   * ela não está praticamente visível, para não gerar um scroll brusco a
+   * cada tecla quando o usuário já está olhando para os resultados. */
+  function rolarParaResultadosSeNecessario() {
+    const retangulo = contadorResultado.getBoundingClientRect();
+    const jaVisivel = retangulo.top >= 0 && retangulo.top <= window.innerHeight * 0.35;
+    if (!jaVisivel) rolarParaResultados();
+  }
+
   function agendarRenderResultado() {
     // Agrupa teclas digitadas na mesma rajada em um único repaint
     // (evita re-renderizar a grade a cada tecla em digitação rápida).
@@ -96,6 +110,7 @@ export function renderExplorar({ estilos, categorias, focoInicialId, autoFocoBus
     quadroAgendado = requestAnimationFrame(() => {
       quadroAgendado = null;
       renderResultado();
+      if (termoBusca.trim()) rolarParaResultadosSeNecessario();
     });
   }
 
@@ -174,10 +189,10 @@ export function renderExplorar({ estilos, categorias, focoInicialId, autoFocoBus
           <p class="style-card__title">${destacarTrecho(estilo.nome, termoBusca)}</p>
           <p class="style-card__category">${estilo.categoriaNome}</p>
         </div>
+        ${estiloTemPreview(estilo) ? `
         <div class="style-card__meta">
-          <span>${estilo.quantidadeMusicasEstimada} músicas</span>
-          ${estiloTemPreview(estilo) ? `<span class="style-card__preview-badge">${iconSvg('play', 10)} Ouvir previews</span>` : ''}
-        </div>
+          <span class="style-card__preview-badge">▶ Ouvir Preview</span>
+        </div>` : ''}
       </button>
     `;
   }
@@ -251,7 +266,6 @@ export function renderExplorar({ estilos, categorias, focoInicialId, autoFocoBus
             <button data-fechar-painel class="btn btn-ghost btn-sm btn-icon" aria-label="Fechar">${iconSvg('fechar', 16)}</button>
           </div>
           <p style="margin-top: var(--space-4);">${estilo.descricaoCurta || ''}</p>
-          <div class="badge" style="margin-top: var(--space-4);">${estilo.quantidadeMusicasEstimada} músicas</div>
           ${estiloTemPreview(estilo) ? `<div style="margin-top: var(--space-4);">${renderPreviewPlayer(estilo)}</div>` : ''}
           <button data-detalhe-toggle="${estilo.id}" class="btn ${selecionado ? 'btn-danger-ghost' : 'btn-primary'} btn-block" style="margin-top: var(--space-5);">
             ${selecionado ? 'Remover da seleção' : 'Adicionar à seleção'}

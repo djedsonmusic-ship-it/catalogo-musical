@@ -1,5 +1,5 @@
 import { iconSvg } from '../../design-system/icons.js';
-import { selectionState } from '../../core/selectionState.js';
+import { selectionState, discografiaSelectionState, solicitacoesPersonalizadasState } from '../../core/selectionState.js';
 import { mostrarToast } from '../../core/feedback.js';
 
 /**
@@ -13,21 +13,33 @@ import { mostrarToast } from '../../core/feedback.js';
  * escolhida). `core/estimateService.js` continua existindo, intocado,
  * para um modulo de precificacao futuro — so nao e mais chamado aqui.
  */
-export function renderSelecao({ estilos, irParaExplorar, irParaFinalizar }) {
+export function renderSelecao({ estilos, discografias = [], irParaExplorar, irParaFinalizar }) {
   const el = document.createElement('div');
   el.className = 'view container';
 
   const cancelarOuvinte = selectionState.aoMudar(() => renderConteudo());
+  const cancelarOuvinteDiscografia = discografiaSelectionState.aoMudar(() => renderConteudo());
+  const cancelarOuvinteSolicitacoes = solicitacoesPersonalizadasState.aoMudar(() => renderConteudo());
 
   function estilosSelecionados() {
     const ids = new Set(selectionState.listarIds());
     return estilos.filter(e => ids.has(e.id));
   }
 
+  /** Sprint 21 (ajuste A): discografias completas adicionadas pelo
+   * cliente entram no mesmo resumo do pedido, como itens à parte
+   * (removíveis individualmente, sem afetar a contagem de estilos). */
+  function discografiasSelecionadas() {
+    const ids = new Set(discografiaSelectionState.listarIds());
+    return discografias.filter(d => ids.has(d.id));
+  }
+
   function renderConteudo() {
     const selecionados = estilosSelecionados();
+    const discosSelecionados = discografiasSelecionadas();
+    const solicitacoes = solicitacoesPersonalizadasState.listar();
 
-    if (selecionados.length === 0) {
+    if (selecionados.length === 0 && discosSelecionados.length === 0 && solicitacoes.length === 0) {
       el.innerHTML = `
         <h1 style="font-size: var(--text-xl); margin-bottom: var(--space-5);">Resumo do pedido</h1>
         <div class="empty-state card">
@@ -55,15 +67,40 @@ export function renderSelecao({ estilos, irParaExplorar, irParaFinalizar }) {
           : ''
       }
 
-      <div class="stat-card" style="margin-bottom: var(--space-6); display:inline-block;">
-        <span class="stat-card__label">Estilos selecionados</span>
-        <strong class="stat-card__value">${selecionados.length}</strong>
+      <div style="display:flex; gap: var(--space-4); flex-wrap:wrap; margin-bottom: var(--space-6);">
+        <div class="stat-card" style="display:inline-block;">
+          <span class="stat-card__label">Estilos selecionados</span>
+          <strong class="stat-card__value">${selecionados.length}</strong>
+        </div>
+        ${discosSelecionados.length > 0 ? `
+        <div class="stat-card" style="display:inline-block;">
+          <span class="stat-card__label">Discografias completas</span>
+          <strong class="stat-card__value">${discosSelecionados.length}</strong>
+        </div>` : ''}
+        ${solicitacoes.length > 0 ? `
+        <div class="stat-card" style="display:inline-block;">
+          <span class="stat-card__label">Discografias personalizadas solicitadas</span>
+          <strong class="stat-card__value">${solicitacoes.length}</strong>
+        </div>` : ''}
       </div>
 
+      ${selecionados.length > 0 ? `
       <h2 class="checkout-section-title">Itens selecionados</h2>
       <div style="display:flex; flex-direction:column; gap: var(--space-3); margin-bottom: var(--space-6);">
         ${selecionados.map(itemSelecionado).join('')}
-      </div>
+      </div>` : ''}
+
+      ${discosSelecionados.length > 0 ? `
+      <h2 class="checkout-section-title">Discografias completas</h2>
+      <div style="display:flex; flex-direction:column; gap: var(--space-3); margin-bottom: var(--space-6);">
+        ${discosSelecionados.map(itemDiscografiaSelecionada).join('')}
+      </div>` : ''}
+
+      ${solicitacoes.length > 0 ? `
+      <h2 class="checkout-section-title">Discografias personalizadas solicitadas</h2>
+      <div style="display:flex; flex-direction:column; gap: var(--space-3); margin-bottom: var(--space-6);">
+        ${solicitacoes.map(itemSolicitacaoPersonalizada).join('')}
+      </div>` : ''}
 
       <ul class="checkout-confirmacao">
         <li>${iconSvg('check', 14)} Você poderá remover itens a qualquer momento antes de enviar</li>
@@ -77,8 +114,14 @@ export function renderSelecao({ estilos, irParaExplorar, irParaFinalizar }) {
 
     el.querySelectorAll('[data-remover]').forEach(btn =>
       btn.addEventListener('click', () => removerComAnimacao(btn.dataset.remover, selecionados)));
+    el.querySelectorAll('[data-remover-discografia]').forEach(btn =>
+      btn.addEventListener('click', () => removerDiscografiaComAnimacao(btn.dataset.removerDiscografia, discosSelecionados)));
+    el.querySelectorAll('[data-remover-solicitacao]').forEach(btn =>
+      btn.addEventListener('click', () => removerSolicitacaoComAnimacao(btn.dataset.removerSolicitacao)));
     el.querySelector('[data-limpar]').addEventListener('click', () => {
       selectionState.limparTudo();
+      discografiaSelectionState.limparTudo();
+      solicitacoesPersonalizadasState.limparTudo();
       mostrarToast('Seleção limpa', 'remocao');
     });
     el.querySelector('[data-finalizar]').addEventListener('click', () => irParaFinalizar());
@@ -93,6 +136,30 @@ export function renderSelecao({ estilos, irParaExplorar, irParaFinalizar }) {
     setTimeout(() => {
       selectionState.remover(id);
       if (estilo) mostrarToast(`“${estilo.nome}” removido da seleção`, 'remocao');
+    }, 180);
+  }
+
+  /** Sprint 21 (ajuste A): mesma animação de remoção, para discografias. */
+  function removerDiscografiaComAnimacao(id, discosSelecionados) {
+    const linha = el.querySelector(`.line-item[data-item-discografia-id="${id}"]`);
+    const disco = discosSelecionados.find(d => d.id === id);
+    if (!linha) { discografiaSelectionState.remover(id); return; }
+    linha.classList.add('is-removendo');
+    setTimeout(() => {
+      discografiaSelectionState.remover(id);
+      if (disco) mostrarToast(`“${disco.titulo}” removida da seleção`, 'remocao');
+    }, 180);
+  }
+
+  /** Sprint 22 (ajuste 4): mesma animação de remoção, para solicitações
+   * de discografia personalizada. */
+  function removerSolicitacaoComAnimacao(nome) {
+    const linha = el.querySelector(`.line-item[data-item-solicitacao="${CSS.escape(nome)}"]`);
+    if (!linha) { solicitacoesPersonalizadasState.remover(nome); return; }
+    linha.classList.add('is-removendo');
+    setTimeout(() => {
+      solicitacoesPersonalizadasState.remover(nome);
+      mostrarToast(`Solicitação de “${nome}” removida`, 'remocao');
     }, 180);
   }
 
@@ -115,7 +182,49 @@ export function renderSelecao({ estilos, irParaExplorar, irParaFinalizar }) {
     `;
   }
 
+  function itemDiscografiaSelecionada(disco) {
+    return `
+      <div class="line-item" data-item-discografia-id="${disco.id}">
+        <div style="display:flex; align-items:center; gap: var(--space-3);">
+          <span class="style-card__icon" style="--card-accent:#4F46E5;">
+            ${iconSvg('carrinho', 18)}
+          </span>
+          <div>
+            <p class="style-card__title" style="font-size: var(--text-sm);">${disco.titulo}</p>
+            ${disco.subtitulo ? `<p class="style-card__category">${disco.subtitulo}</p>` : ''}
+          </div>
+        </div>
+        <button data-remover-discografia="${disco.id}" class="btn btn-ghost btn-sm btn-icon" aria-label="Remover ${disco.titulo} da seleção">
+          ${iconSvg('lixo', 16)}
+        </button>
+      </div>
+    `;
+  }
+
+  // Sprint 23 (ajuste 2/3): tratado como dado textual — sem ícone do
+  // WhatsApp (a solicitação não é mais uma ação de WhatsApp, é um item
+  // do pedido como outro qualquer).
+  function itemSolicitacaoPersonalizada(nome) {
+    const nomeAttr = nome.replace(/"/g, '&quot;');
+    return `
+      <div class="line-item" data-item-solicitacao="${nomeAttr}">
+        <div style="display:flex; align-items:center; gap: var(--space-3);">
+          <span class="style-card__icon" style="--card-accent:#4F46E5;">
+            ${iconSvg('busca', 18)}
+          </span>
+          <div>
+            <p class="style-card__title" style="font-size: var(--text-sm);">${nome}</p>
+            <p class="style-card__category">Discografia personalizada solicitada</p>
+          </div>
+        </div>
+        <button data-remover-solicitacao="${nomeAttr}" class="btn btn-ghost btn-sm btn-icon" aria-label="Remover solicitação de ${nome}">
+          ${iconSvg('lixo', 16)}
+        </button>
+      </div>
+    `;
+  }
+
   renderConteudo();
-  el._limpar = cancelarOuvinte;
+  el._limpar = () => { cancelarOuvinte(); cancelarOuvinteDiscografia(); cancelarOuvinteSolicitacoes(); };
   return el;
 }

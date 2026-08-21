@@ -382,6 +382,14 @@ input {
 }
 .selection-bar.is-visible { transform: translateY(0); }
 
+/* Sprint 22 (ajuste 7): espaço reservado no fim da página enquanto a
+   barra fixa está visível, para o conteúdo da tela (ex.: botão
+   "Finalizar pedido" no Resumo do pedido) nunca ficar por baixo dela. */
+body.tem-barra-selecao { padding-bottom: 76px; }
+@media (max-width: 640px) {
+  body.tem-barra-selecao { padding-bottom: 92px; }
+}
+
 .selection-bar__stats {
   display: flex;
   gap: var(--space-5);
@@ -392,6 +400,17 @@ input {
 .selection-bar__stats b { font-family: var(--font-display); color: #fff; font-weight: 600; }
 .selection-bar__stat-extra { display: none; }
 .selection-bar__stat-extra--valor { color: #F2C078; }
+
+/* Sprint 22 (ajuste 7): "Ver seleção" + "Voltar ao início" lado a
+   lado quando há seleção; wrap habilitado para o celular não cortar
+   nem sobrepor os dois botões em telas estreitas. */
+.selection-bar__acoes {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
 
 @media (min-width: 560px) {
   .selection-bar__stat-extra { display: inline; }

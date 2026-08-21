@@ -26,9 +26,17 @@ function formatarDataAtual() {
   return new Date().toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit', year: 'numeric' });
 }
 
-/** Gera o texto do pedido — sem nenhuma menção a preço/valor. */
-export function montarResumoTextual({ protocolo, dataFormatada, formaEntrega, selecionados, observacoes }) {
+/** Gera o texto do pedido — sem nenhuma menção a preço/valor.
+ * Sprint 21 (ajuste A): `discografiasSelecionadas` (opcional) entra
+ * como uma seção própria no resumo, sem afetar a contagem/lista de
+ * estilos já existente.
+ * Sprint 22 (ajuste 4): `solicitacoesPersonalizadas` (opcional) — nomes
+ * de artistas pedidos sob encomenda — também entram no resumo, para
+ * não existirem só dentro da conversa do WhatsApp. */
+export function montarResumoTextual({ protocolo, dataFormatada, formaEntrega, selecionados, observacoes, discografiasSelecionadas = [], solicitacoesPersonalizadas = [] }) {
   const linhas = selecionados.map(e => `• ${e.nome} (${e.categoriaNome})`);
+  const linhasDiscografias = discografiasSelecionadas.map(d => `• ${d.titulo}${d.subtitulo ? ` (${d.subtitulo})` : ''}`);
+  const linhasSolicitacoes = solicitacoesPersonalizadas.map(nome => `• Solicitação de discografia personalizada: ${nome}`);
   return [
     'Pedido — Catálogo Musical',
     '',
@@ -38,6 +46,8 @@ export function montarResumoTextual({ protocolo, dataFormatada, formaEntrega, se
     '',
     `Estilos selecionados (${selecionados.length}):`,
     ...linhas,
+    ...(discografiasSelecionadas.length > 0 ? ['', `Discografias completas (${discografiasSelecionadas.length}):`, ...linhasDiscografias] : []),
+    ...(solicitacoesPersonalizadas.length > 0 ? ['', `Discografias personalizadas solicitadas (${solicitacoesPersonalizadas.length}):`, ...linhasSolicitacoes] : []),
     ...(observacoes ? ['', `Observações: ${observacoes}`] : [])
   ].join('\n');
 }

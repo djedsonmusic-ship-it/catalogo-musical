@@ -1,0 +1,47 @@
+{
+  "aviso": "Editar manualmente para cadastrar discografias completas. Cada item vira um card na seção 'Discografias completas' da Home. Campos: id (único), titulo, subtitulo, categoria (opcional), imagem (opcional, URL), ordemExibicao (número), status ('ativo' ou 'inativo'). Se a lista ficar vazia, a seção simplesmente não aparece na Home — não é necessário alterar HTML ou JavaScript.",
+  "discografias": [
+    {
+      "id": "legiao-urbana",
+      "titulo": "Legião Urbana",
+      "subtitulo": "Discografia completa",
+      "ordemExibicao": 1,
+      "status": "ativo"
+    },
+    {
+      "id": "ze-ramalho",
+      "titulo": "Zé Ramalho",
+      "subtitulo": "Discografia completa",
+      "ordemExibicao": 2,
+      "status": "ativo"
+    },
+    {
+      "id": "barto-galeno",
+      "titulo": "Bartô Galeno",
+      "subtitulo": "Discografia completa",
+      "ordemExibicao": 3,
+      "status": "ativo"
+    },
+    {
+      "id": "the-beatles",
+      "titulo": "The Beatles",
+      "subtitulo": "Discografia completa",
+      "ordemExibicao": 4,
+      "status": "ativo"
+    },
+    {
+      "id": "roberto-carlos",
+      "titulo": "Roberto Carlos",
+      "subtitulo": "Discografia completa",
+      "ordemExibicao": 5,
+      "status": "ativo"
+    },
+    {
+      "id": "agnaldo-timoteo",
+      "titulo": "Agnaldo Timóteo",
+      "subtitulo": "Discografia completa",
+      "ordemExibicao": 6,
+      "status": "ativo"
+    }
+  ]
+}
